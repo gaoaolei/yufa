@@ -9,5 +9,5 @@ class Student(object):
 s=Student()
 a=99
 s.set_score(a)
-print s.get_score()
+print(s.get_score())
 
