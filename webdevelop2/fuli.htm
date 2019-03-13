@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>福利中心</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="wap-font-scale" content="no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="Description" content="">
+    <meta name="Keywords" content="">
+    <script src="https://img1.km.com/bookimg/free/js/app/zepto.js"></script>
+    <link href="https://img1.km.com/bookimg/free/styles/app/20181103/1_0_0/app-global.css?v2.1.0" rel="stylesheet">
+<link href="https://img1.km.com/bookimg/free/styles/app/20181103/1_0_0/app-task-center.css?v3" rel="stylesheet" 0="frontend\assets\AppAsset"></head>
+<body ontouchstart=''>
+
+<section class="wrapper">
+    <section class="main">
+        <section class="row" id="top-anchor-point" name="top-anchor-point">
+
+            <!-- 通知栏 -->
+            <!-- <section class="g-broadcast-information">
+                <section class="swiper-container" id="js-swiper-broadcast-information">
+                    <ul class="swiper-wrapper"></ul>
+                    <div class="swiper-pagination"></div>
+                </section>
+            </section> -->
+            <!-- 通知栏 -->
+
+            <!-- 签到任务 -->
+            <section class="task-sign">
+                <input id="cookieInfo" type="hidden" i="868795049782259" u="00000000-6ee7-9cb3-ffff-ffffe9983c01" d="20190128100730823334b722a175ee5bb813130664b1dc014cdc9943274060">
+
+                                    <a href="javascript:void(0);" data-event-statistic="task_signin"
+                       class="a-sign-btn js-sign-btn"  >点击签到
+                        +20金币</a>
+                    <a href="javascript:void(0);"
+                       class="a-signed-btn js-signed-btn"  style="display: none"  >
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzVweCIgaGVpZ2h0PSIzMHB4IiB2aWV3Qm94PSIwIDAgMzUgMzAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUwLjIgKDU1MDQ3KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5pY29uLzM1L+etvuWIsOaIkOWKnzwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxkZWZzPjwvZGVmcz4KICAgIDxnIGlkPSJpY29uLzM1L+etvuWIsOaIkOWKnyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTE4LjE1NDU2MywyMS45MjcyMzg3IEMyMC4yNDU0NTg5LDE4Ljk5OTk2OTkgMjIuNTQ1NDg0NCwxNi4yODE3OTQ0IDI0LjIxODE5MzcsMTQuMzk5OTkxOCBDMjUuMjYzNjU5OSwxMy4zNTQ1MjU2IDI2LjA5OTk5NjMsMTIuMzA5MDk1OSAyNi45MzYzNjkzLDExLjQ3MjcyMyBMMjkuMjM2MzU4Myw5LjE3MjczMzk0IEMzMC40OTA5MTc3LDcuOTE4MTc0NTkgMzEuOTU0NTMzOSw2LjQ1NDU1ODQyIDMzLDYuMDM2MzcxOTggTDMxLjc0NTQ0MDYsNC4zNjM2NjI1NiBDMzAuMDcyNzMxMyw1LjQwOTEyODY5IDI4LjM5OTk4NTQsNi42NjM2NTE2NCAyNi45MzYzNjkzLDcuNTAwMDI0NTYgQzI2LjMwOTA4OTYsOC4xMjczMDQyNSAyNS40NzI3NTMxLDguNTQ1NDkwNjkgMjQuODQ1NDczNCw4Ljk2MzY3NzEzIEMyNC4yMTgxOTM3LDkuNTkwOTU2ODIgMjMuNTkwOTE0MSwxMC4wMDkxNDMzIDIyLjc1NDU3NzYsMTAuNjM2Mzg2NSBDMjEuNTAwMDE4MiwxMS40NzI3NTk0IDIwLjAzNjQwMjEsMTIuOTM2Mzc1NiAxOC4zNjM2NTYyLDE0LjE5MDkzNSBMMTQuNjAwMDE0NiwxMC40MjcyNTY5IEwxMCwxNC4xOTA4OTg1IEwxOC4xNTQ1NjMsMjEuOTI3MjM4NyBaIiBpZD0iU2hhcGUiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4KICAgICAgICA8cGF0aCBkPSJNMjQuODU5NDYwNSwyLjc5MjczNDc4IEMyMi44MzIzMTk4LDEuNjUxMjAyOTkgMjAuNDkyMjA4MiwxIDE4LDEgQzEwLjI2ODAxMzUsMSA0LDcuMjY4MDEzNSA0LDE1IEM0LDIyLjczMTk4NjUgMTAuMjY4MDEzNSwyOSAxOCwyOSBDMjUuNzMxOTg2NSwyOSAzMiwyMi43MzE5ODY1IDMyLDE1IiBpZD0iT3ZhbCIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PC9wYXRoPgogICAgPC9nPgo8L3N2Zz4="
+                             alt="" class="icon">
+                        <p>
+                            <span class="s-tit">今日已签到</span>
+                            <span class="s-des">明日签到 +30金币</span>
+                        </p>
+                    </a>
+                
+                <ul class="sign-day-list js-sign-day-list">
+                                                                        <li class="cur">
+                                                <article>
+                            <section class="sign-reward">
+                                <span class="s-status"><em>已领</em><img
+                                            src="https://img1.km.com/bookimg/free/images/app/1_0_0/gold-pic.png"
+                                            alt=""></span>
+                                <span class="s-num">+20</span>
+                            </section>
+                            <span class="s-day">1天</span>
+                        </article>
+                        </li>
+                                                                        <li>
+                                                <article>
+                            <section class="sign-reward">
+                                <span class="s-status"><em>已领</em><img
+                                            src="https://img1.km.com/bookimg/free/images/app/1_0_0/gold-pic.png"
+                                            alt=""></span>
+                                <span class="s-num">+30</span>
+                            </section>
+                            <span class="s-day">2天</span>
+                        </article>
+                        </li>
+                                                                        <li>
+                                                <article>
+                            <section class="sign-reward">
+                                <span class="s-status"><em>已领</em><img
+                                            src="https://img1.km.com/bookimg/free/images/app/1_0_0/gold-pic.png"
+                                            alt=""></span>
+                                <span class="s-num">+40</span>
+                            </section>
+                            <span class="s-day">3天</span>
+                        </article>
+                        </li>
+                                                                        <li>
+                                                <article>
+                            <section class="sign-reward">
+                                <span class="s-status"><em>已领</em><img
+                                            src="https://img1.km.com/bookimg/free/images/app/1_0_0/gold-pic.png"
+                                            alt=""></span>
+                                <span class="s-num">+70</span>
+                            </section>
+                            <span class="s-day">4天</span>
+                        </article>
+                        </li>
+                                                                        <li>
+                                                <article>
+                            <section class="sign-reward">
+                                <span class="s-status"><em>已领</em><img
+                                            src="https://img1.km.com/bookimg/free/images/app/1_0_0/gold-pic.png"
+                                            alt=""></span>
+                                <span class="s-num">+50</span>
+                            </section>
+                            <span class="s-day">5天</span>
+                        </article>
+                        </li>
+                                                                        <li>
+                                                <article>
+                            <section class="sign-reward">
+                                <span class="s-status"><em>已领</em><img
+                                            src="https://img1.km.com/bookimg/free/images/app/1_0_0/gold-pic.png"
+                                            alt=""></span>
+                                <span class="s-num">+60</span>
+                            </section>
+                            <span class="s-day">6天</span>
+                        </article>
+                        </li>
+                                                                        <li>
+                                                <article>
+                            <section class="sign-reward">
+                                <span class="s-status"><em>已领</em><img
+                                            src="https://img1.km.com/bookimg/free/images/app/1_0_0/gold-pic.png"
+                                            alt=""></span>
+                                <span class="s-num">+150</span>
+                            </section>
+                            <span class="s-day">7天</span>
+                        </article>
+                        </li>
+                                    </ul>
+            </section>
+            <!-- 通知栏 -->
+
+            <!-- 新手福利 -->
+                        <!-- 新手福利 -->
+
+        </section>
+
+        <section class="row">
+
+            <!-- 日常福利 -->
+            <section class="mod">
+                <section class="th">
+                    <span class="s-mark">日常福利 
+                        <!--屏蔽广告的情况下，不显示该提示-->    
+                                                <em class="intro">部分任务会员专享双倍金币</em>
+                                            </span>
+                </section>
+                <section class="tb">
+                    <ul class="data-txt-list">
+                                                    <li>
+                                 <!-- 邀请好友 -->
+                                <span class="s-icon red"><i class="iconfont">&#xe60e;</i></span>
+                                                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>邀请好友</strong>
+                                                                                    <em class="special"><i class="task_icon_red"></i>+4元</em>
+                                                                            </span>
+                                    <span class="s-des">邀请好友得现金，好友阅读得金币提成</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 邀请好友 -->
+                                                                                    <a href='freereader://x5_webview_newweb?param={"url":"https://xiaoshuo.km.com/h5/v1/invite-friend/invite", "type":"taskCenter"}'
+                                               data-event-statistic="task_daily_invite" class="btn-outline inline-block"
+                                               btn-size="small">
+                                                去邀请                                            </a>
+                                        <!-- 观看小视频 -->
+                                                                            <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                                    <li>
+                                    <!-- 幸运大转盘 -->
+                                <span class="s-icon orange"><i class="icon-wheel"></i></span>
+                                                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>幸运大转盘</strong>
+                                                                                    <em class="special">
+                                                                                                <i class="task_icon_gift"></i>
+                                                                                            <!-- 显示vip金币条件 -->
+                                                                                            随机大奖</em>
+                                                                                                                        </span>
+                                    <span class="s-des">转盘抽大奖，每日机会有限！</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 邀请好友 -->
+                                                                                    <a href='freereader://x5_webview?param={"url":"https://xiaoshuo.km.com/app-h5/freebook/wheelSurf"}' data-event-statistic="task_daily_wheelsurf_go" class="btn-outline inline-block" btn-size="small">
+                                                去抽奖                                            </a>
+                                        <!-- 每日分享 -->
+                                                                            <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                                    <li>
+                                    <!-- 观看小视频 -->
+                                <span class="s-icon purple"><i class="iconfont">&#xe628;</i></span>
+                                                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>观看小视频</strong>
+                                                                                    <em class="special">
+                                                                                                <i class="task_icon_gold"></i>
+                                                                                            <!-- 显示vip金币条件 -->
+                                                                                            +50</em>
+                                                                                                                        </span>
+                                    <span class="s-des">观看15~30秒小视频，得丰厚金币奖励</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 邀请好友 -->
+                                                                                    <a href='javascript:void(0);' data-url='freereader://watch_reward_video?param={"data":{"list":[{"placementId":"902490842","advertiser":"3","type":"task_daily","appid":"5002490"},{"placementId":"6013523","advertiser":"4","type":"task_daily","appid":"b9de3992"}],"call_back":"updateWatchVideoTaskState","content":""}}' data-event-statistic="" class="btn-outline inline-block" btn-size="small" id="go-watch-video-btn">
+                                                去观看                                            </a>
+                                        <!-- 幸运大转盘 -->
+                                                                            <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                                    <li>
+                                    <!-- 每日分享 -->
+                                <span class="s-icon blue"><i class="iconfont">&#xe60b;</i></span>
+                                                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>每日分享</strong>
+                                                                                    <em class="special">
+                                                                                                <i class="task_icon_gold"></i>
+                                                                                            <!-- 显示vip金币条件 -->
+                                                                                            最高100</em>
+                                                                                                                        </span>
+                                    <span class="s-des">每日首次分享被好友点击后可获得奖励</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 邀请好友 -->
+                                                                                    <a href='freereader://share_list?param=ThBaV0FcRVJuAAlTUEQCQVt0bGp2JxcdR0NcUkYDOgRHXV4bDRcAFR1BFV9UFF08D1lLTRVYbkpHRF1HWANHWBcQHxtGR1JYVQY5QkcKGllBWExNR1hpHjkfVR1VFhVMREMdWlhYbRheP0lEXAtIDwYeUkpHXUVaAl5VXlFbBg1YHFhUT0YfRVQCAlJHRBRBD1lWUhVYFxNJElBWRwVHWBcQHxtDTEFSE1lEW1oFWQ88WVVYUAcXHUdZWVRrExcOFwgRGxsXRV9EDgReWAdfBkEKGhsbQFZQCVxWUlcNR1gXEB8bRF1QRVQ8El5BCl1BWRJkTAIEVFQ5RQBVUVc5FwALBF1rQAQEUgFEGxcVUAIRVWdNThJQE18SBBFJSh5AQVtHVVIXCxUTT0RGRwVXBwZvTUtbQA8TDURAQw46Sj4aUx1YR0UfRkBNBVhYOhcMPx9LUFoSWVRLWkdDCxYOBVtTXlwKVl5aHwgLT0ZISgYCVF1LFU4XXQxeXxEOREdOF1ZWSlQXCxUTT0RDTBZdQVkSVFZUA1luDF1VVFFESUBcX1RmQkddFQtBRBsXElAWDlJRVFYFUBNfEhYfFgUEDllQUlpcFwsVE09ERF0HSgY8RFFNWwcXC0dsQQZSBwA-QAZVXAZpRAEGUwRrQFMLAAFsTQwAUg0TSRJHW1UUAD1BS0NcFQ8TBhMeSkwXElEXD1UaAxU-QAUAAAdvQVFWUFduRgwGAVVrRFsCBAw6TVYAAF5lQlpXV1FsQQYFUF0-QFRVCVRpRAIAVwJrQF5cUFpsTQ4AUldtEARRBQI6EFZQAgNlQgIHAFQ_EwJQUQw_FlZeCQY-QAZSAFZvQVIAVANuRgwEAgJrRFpWBwQ6TVRQUghlQlsEVVRsQQRRB1c-QAcACQJpRFFXU1cVGURJEQBfXFxoF0ddRwoWW0ASFVhpHW8WVhtQR0FNF0YbBVcOPx9XZRgRXFwVXFEdXhUVXUVZVFdWWFQKUgwLGVcJVwhRAwwMGRBQUAFVRhEYRAkLW1kRAxVdRUNBWToYaUlPFBQeU1RUElYfEV9EbxtZBAFBD1VLUlB4WUcKElJkFx4RBlRnWlgGUAxddGBgdSNHThdWVkpUFwsVbRZRB1ACZBZaBV0BaxcAUlVWaEYMBANWaUdVXwdWbUIEUlAPaRMNVFBRZEwCUwFVOUUMVwdfORdTVAMIa0AHUwZUOkIMV1sFP0UPClVSaURcAVACaBNWUgUDb0wOBFUGbRZTUgVXZBZUUgwAaxcBV1MAaEYCUVNXaUcFC1FTbUJXBVZUaRMNUAZWZEwAA1ZTOUUBAANVORcDAVcJa0AGBFNTOkJTAAhSQRwaTU4SUBNfElhaWg1HThdbXl5oQENbE1lEX0ESSBBZbBdlGAtYVlQeX14aBQoPaR1RVlheWFpWP0lRRwNdP0xZVVhQB0ZtSlFEQ2hJVD0FbQNlGFleUF5RSEdbARpPQURQTFoAXFwEV1ERDkQNFkFCQANrGm0YWA4BBhsNVU0AX1VlGABaXg5ZWVRoSQMQUFdvFl5YUFBUEDoYVBZIP0wBZwloUmkeCV9TXAZIFQxSEB8bVFRdW1MCBVwXXBpBTxJLUVYQUG4RWUBfUURfQGRjERUVRllWQwY5Q0wWXUFZEgsbSk5OExFZQF9RRF9AaUcHXAcGbUIGUFRVaRMNUldUZEwPBgYIOUUBUAQAORcNUFUNa0AEBgdbOkJTAAgAP0UNCAMGaURdVAcKaBNSVQVQb0wDUAcBbRZSUgVWZBZUBg9caxcAVFIEaEZSAFVTaUcEDgdXbUIFBlABaRMNUFQDZEwOUgUAOUUDAFZWORcMA1cIa0AGUlBROkIAVQhWP0VeXwdTFx1HQUZQWwIAPUBAXxsNF1lDRRNcaxo6FwJNUUhJGRNEHwZfWW8bCTlNRlteSVtQH11CE1lHXgFWAg5VBVpYDxtTCl9fAQdSUExHV1JdUkcTGxMPD1leRAJBC0RMSQ0-Gm1KR0NEGg0IAUVRHU1YRW0YDgIFQwgASgYGeVZPXhZQYBRqW11RQBcHUW1QVlNQDA91NzV2cEQUQQdVS1oVWBdtEAcEVlA6EFsAVwtlQgBSB1c_Ew9XAAw_FlZeCVQ-QARUBgxvQVNSUVRuRgwGAVVrRFsCBAw6TQUFAAllQlRRBlJsQQoFBQM-QAUAWwdpRA4AB1drQFUIU1JsTQAGBgRtEAVRAwU6EFVXBgplQgFXAQE_EwECUA0_FgYKX1E-QFcDAFdvQVNWB1NuRg5WVlNrRFZVAAY6TVVQVAhlQlUGU1VsQVVSVlRAGRBHQEdQEw0TDw9ZXkQUQQpdX2ZCEFkTXxJcR0AWFlhpHW8WXlhWBh8ICxlWCVU_TFJXVlwLWFY5H1JBUQM5TVxfUl5SRm0YUBMWaxpXZ1M8AGQWWw1SXlceRF1TRElAQVpGVFVcXFZWBkQNFw5MFxNDAmUYPhpYCFcFHV8LSwFaX28WVVpeXFgOAWsaAEoGBmwXUFoDUlQWbBtSRBY5TQRtA2YHaR5bXgQJBRsWVgRBHBpaVg5ZUwRTXxEOREdOF0FbWEVQbkNYFwpSF1waMjJsTQ5WVVRtEAkBVQBESUBGWlJLUmpFTkEGRA0XUhoePk0' data-event-statistic="task_daily_share" class="btn-outline inline-block" btn-size="small">
+                                                去分享                                            </a>
+                                        <!-- 30秒计时奖励 -->
+                                                                            <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                                    <li>
+                                    <!-- 30秒计时奖励 -->
+                                <span class="s-icon orange"><i class="iconfont">&#xe60f;</i></span>
+                                                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>阅读30秒计时奖励</strong>
+                                                                                    <em class="special">
+                                                                                                <i class="task_icon_gold"></i>
+                                                                                            <!-- 显示vip金币条件 -->
+                                                                                            最高50</em>
+                                                                                                                        </span>
+                                    <span class="s-des">阅读时间越久，累计获得的金币越多</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 邀请好友 -->
+                                                                                    <a href='freereader://bookstore_recommend'
+                                                data-event-statistic="task_daily_timing30s_read"
+                                                class="btn-outline inline-block" btn-size="small">
+                                                去阅读                                            </a>
+                                        <!-- 每日阅读时间 -->
+                                                                            <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                                    <li>
+                                    <!-- 每日阅读时间 -->
+                                <span class="s-icon orange"><i class="iconfont">&#xe60d;</i></span>
+                                                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>每日阅读30分钟</strong>
+                                                                                    <em class="special">
+                                                                                                <i class="task_icon_gold"></i>
+                                                                                            <!-- 显示vip金币条件 -->
+                                                                                                                                                                                                        +50</em>
+                                                        <em class="double gray">VIP双倍</em>
+                                                                                                                                                    
+                                                                                                                        </span>
+                                    <span class="s-des">完成阅读任务获得额外奖励</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 邀请好友 -->
+                                                                                    <!-- 30min -->
+                                                                                            <a href='freereader://bookstore_recommend'
+                                                    data-event-statistic="task_daily_reading1_read"
+                                                    class="btn-outline inline-block" btn-size="small">
+                                                    去阅读                                                </a>
+                                            <!-- 60min -->
+                                                                                                                        <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                                    <li>
+                                    <!-- 每日阅读时间 -->
+                                <span class="s-icon orange"><i class="iconfont">&#xe60d;</i></span>
+                                                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>每日阅读60分钟</strong>
+                                                                                    <em class="special">
+                                                                                                <i class="task_icon_gold"></i>
+                                                                                            <!-- 显示vip金币条件 -->
+                                                                                                                                                                                                        +60</em>
+                                                        <em class="double gray">VIP双倍</em>
+                                                                                                                                                    
+                                                                                                                        </span>
+                                    <span class="s-des">完成阅读任务获得额外奖励</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 邀请好友 -->
+                                                                                    <!-- 30min -->
+                                                                                            <a href='freereader://bookstore_recommend'
+                                                    data-event-statistic="task_daily_reading2_read"
+                                                    class="btn-outline inline-block" btn-size="small">
+                                                    去阅读                                                </a>
+                                            <!-- 90min -->
+                                                                                                                        <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                                    <li>
+                                    <!-- 每日阅读时间 -->
+                                <span class="s-icon orange"><i class="iconfont">&#xe60d;</i></span>
+                                                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>每日阅读90分钟</strong>
+                                                                                    <em class="special">
+                                                                                                <i class="task_icon_gold"></i>
+                                                                                            <!-- 显示vip金币条件 -->
+                                                                                                                                                                                                        +80</em>
+                                                        <em class="double gray">VIP双倍</em>
+                                                                                                                                                    
+                                                                                                                        </span>
+                                    <span class="s-des">完成阅读任务获得额外奖励</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 邀请好友 -->
+                                                                                    <!-- 30min -->
+                                                                                            <a href='freereader://bookstore_recommend'
+                                                    data-event-statistic="task_daily_reading3_read"
+                                                    class="btn-outline inline-block"
+                                                    btn-size="small">
+                                                    去阅读                                                </a>
+                                            <!-- 180min -->
+                                                                                                                        <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                                    <li>
+                                    <!-- 每日阅读时间 -->
+                                <span class="s-icon orange"><i class="iconfont">&#xe60d;</i></span>
+                                                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>每日阅读180分钟</strong>
+                                                                                    <em class="special">
+                                                                                                <i class="task_icon_gold"></i>
+                                                                                            <!-- 显示vip金币条件 -->
+                                                                                                                                                                                                        +100</em>
+                                                        <em class="double gray">VIP双倍</em>
+                                                                                                                                                    
+                                                                                                                        </span>
+                                    <span class="s-des">完成阅读任务获得额外奖励</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 邀请好友 -->
+                                                                                    <!-- 30min -->
+                                                                                            <a href='freereader://bookstore_recommend'
+                                                    data-event-statistic="task_daily_reading4_read"
+                                                    class="btn-outline inline-block"
+                                                    btn-size="small">
+                                                    去阅读                                                </a>
+                                                                                                                        <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                            </ul>
+                </section>
+            </section>
+            <!-- 日常福利 -->
+        </section>
+
+        <section class="row">
+                        <!-- 进阶福利 -->
+            <section class="mod">
+                <section class="th">
+                    <span class="s-mark">进阶福利</span>
+                </section>
+                <section class="tb">
+                    <ul class="data-txt-list">
+                                                                                <li>
+                                                                <!-- 有奖答题 -->
+                                <span class="s-icon orange"><i class="iconfont">&#xe627;</i></span>
+                                
+                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>有奖答题</strong>
+                                                                                        
+                                                <em class="special"><i class="task_icon_gold"></i>+800</em>
+                                                                                                                        </span>
+                                    <span class="s-des">助你玩转任务,赢取丰厚金币奖励</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 有奖答题 -->
+                                                                                    <a href='freereader://x5_webview?param={"url":"https://xiaoshuo.km.com/h5/v1/prize-the-answer/index"}'
+                                                data-event-statistic="task_prizeanswer" class="btn-outline inline-block" btn-size="small">去答题                                            </a>
+                                        <!--打开推送-->
+                                                                            <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                                                                <li>
+                                                              <!--下载应用-->
+                                <span class="s-icon green"><i class="iconfont">&#xe621;</i></span>
+                                
+                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>下载应用</strong>
+                                                                                        
+                                                <em class="special"><i class="task_icon_gold"></i>最高10000</em>
+                                                                                                                        </span>
+                                    <span class="s-des">下载应用并使用，可领取丰厚奖励</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 有奖答题 -->
+                                                                                    <a href='freereader://app_list_download'
+                                                data-event-statistic="task_appdownload" class="btn-outline inline-block" btn-size="small">去下载                                            </a>
+                                                                            <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                                                                <li>
+                                                             <!--打开推送-->
+                                <span class="s-icon blue"><i class="iconfont">&#xe620;</i></span>
+                                
+                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>打开推送</strong>
+                                                                                        
+                                                <em class="special"><i class="task_icon_gold"></i>+200</em>
+                                                                                                                        </span>
+                                    <span class="s-des">打开推送，获取最新福利通知</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 有奖答题 -->
+                                                                                    <a href='freereader://task_request_notification_permission?param={"call_back":"updatePushTaskState"}'
+                                                data-event-statistic="task_turnonpush_turnon" class="btn-outline inline-block" btn-size="small">去开启                                            </a>
+                                        <!--关注公众号-->
+                                                                            <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                                                                <li id="js-alipay-task" style="display:none;">
+                                                              <!--打开支付宝-->
+                                <span class="s-icon blue2"><i class="iconfont">&#xe629;</i></span>
+                                
+                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>支付宝送红包</strong>
+                                                                                                                                                                </span>
+                                    <span class="s-des">支付宝新用户可领支付宝赠送的8元红包</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 打开支付宝不做任务处理 -->
+                                                                                    <a href='freereader://x5_webview?param={"url":"https://render.alipay.com/p/f/jfxb4alj/pages/receive-redpacket/index.html?__webview_options__=ttb%3Dauto&sceneCode=KF_DYW01&shareUserId=2088131735280635&sharedUserId=&shareChannel=QRCode&partnerId=zhifubao220"}' class="btn-outline inline-block"
+                                                btn-size="small" data-event-statistic="task_alipay_receive">
+                                                去领取                                            </a>
+                                        <!-- 拼多多 -->
+                                                                                                            </p>
+                            </li>
+                                                                                <li id="js-pdd-task" style="display:none;">
+                                                              <!--拼多多-->
+                                <span class="s-icon red"><i class="iconfont">&#xe703;</i></span>
+                                
+                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>拼多多送红包</strong>
+                                                                                                                                                                </span>
+                                    <span class="s-des">最高领百元现金，下单立减双倍</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 打开支付宝不做任务处理 -->
+                                                                                    <a href='freereader://x5_webview?param={"url":"https://mobile.yangkeduo.com/duo_red_packet.html?pid=2006135_50755213&authDuoId=20002&cpsSign=CR2006135_50755213_9def159c2009bf44a27d002a9aa6a833&duoduo_type=2&launch_wx=1"}' class="btn-outline inline-block" btn-size="small" data-event-statistic="task_pdd_receive">
+                                                去领取                                            </a>
+                                                                                                            </p>
+                            </li>
+                                                                                <li>
+                                                              <!--关注公众号-->
+                                <span class="s-icon orange"><i class="iconfont">&#xe624;</i></span>
+                                
+                                <p class="p-left">
+                                    <span class="s-tit">
+                                        <strong>关注公众号</strong>
+                                                                                                                                                                </span>
+                                    <span class="s-des">关注公众号，掌握最新福利资讯</span>
+                                </p>
+                                <p class="p-right">
+                                    <!-- 未完成 -->
+                                                                            <!-- 有奖答题 -->
+                                                                                    <a href='freereader://x5_webview?param={"url":"https://xiaoshuo.km.com/h5/v1/wechat/index?ignore_keycode_back_down"}'
+                                                data-event-statistic="task_officialaccount_follow" class="btn-outline inline-block" btn-size="small">去关注                                            </a>
+                                        <!--下载应用-->
+                                                                            <!-- 可领取 -->
+                                                                    </p>
+                            </li>
+                                            </ul>
+                </section>
+            </section>
+            <!-- 进阶福利 -->
+                        <div class="placeholder_gray"></div>        
+        </section>
+
+    </section>
+</section>
+
+<!-- 绑定手机 -->
+<section class="pop-box km-pop" km-pop-name="bind-phone-pop">
+    <a href="javascript:void(0);" class="pop-close-btn km-pop-hide-btn" km-pop-name="bind-phone-pop"
+       data-event-statistic="task_newuser_withdraw1_phone_close"><i class="iconfont">&#xe611;</i></a>
+    <section class="pop-tb">
+        <article class="txt">
+            <span class="s-tit">您未绑定手机号</span>
+            <span class="s-des">绑定后才可以提现哟</span>
+            <span class="s-icon orange"><i class="iconfont">&#xe612;</i></span>
+            <a href='freereader://settings_bindphone?param={"call_back":"withdraw_bind_phone_callback"}'
+               data-event-statistic="task_newuser_withdraw1_phone_bind" class="btn-primary" btn-size="large">立即绑定</a>
+        </article>
+    </section>
+</section>
+<!-- 绑定手机 -->
+
+<!-- 绑定微信 -->
+<section class="pop-box km-pop" km-pop-name="bind-wechat-pop">
+    <a href="javascript:void(0);" class="pop-close-btn km-pop-hide-btn" km-pop-name="bind-wechat-pop"
+       data-event-statistic="task_newuser_withdraw1_wechat_close"><i class="iconfont">&#xe611;</i></a>
+    <section class="pop-tb">
+        <article class="txt">
+            <span class="s-tit">您未绑定微信</span>
+            <span class="s-des">绑定后将提现至该微信</span>
+            <span class="s-icon green"><i class="iconfont">&#xe60a;</i></span>
+            <a href='freereader://settings_bindwechat?param={"call_back":"withdraw_bind_wechat_callback"}'
+               data-event-statistic="task_newuser_withdraw1_wechat_bind" class="btn-primary" btn-size="large">立即绑定</a>
+        </article>
+    </section>
+</section>
+<!-- 绑定微信 -->
+
+<!-- 验证码弹窗 -->
+<section class="pop-box km-pop verification-submit-pop" km-pop-name="verification-submit-pop">
+    <section class="pop-th">
+        <span class="s-tit">拖动下方滑块完成拼图</span>
+        <a href="javascript:void(0);" class="pop-close-btn km-pop-hide-btn" km-pop-name="verification-submit-pop"><i
+                    class="iconfont">&#xe611;</i></a>
+    </section>
+    <section class="pop-tb">
+        <section class="verification-con js-verification-display-area" id="js-verification-display-area">
+            <p class="p-verification-tips">滑动验证码加载中...</p>
+        </section>
+    </section>
+    <section class="pop-tf">
+        <span class="s-error js-verification-error-txt"></span>
+        <span class="a-change-btn js-verification-change-btn">换一换</span>
+    </section>
+</section>
+<!-- 验证码弹窗 -->
+
+<!-- 提交提现 -->
+<section class="pop-box km-pop" km-pop-name="submit-withdraw-pop">
+    <a href="javascript:void(0);" class="pop-close-btn km-pop-hide-btn" km-pop-name="submit-withdraw-pop"
+       data-event-statistic="task_newuser_withdraw1_confirmationpage_close"><i class="iconfont">&#xe611;</i></a>
+    <section class="pop-tb">
+        <article class="txt">
+            <span class="s-tit">微信提现</span>
+            <ul>
+                <li>&nbsp;</li>
+                <li>将提现<strong class="js-withdraw-money"></strong>元到您绑定的微信账号</li>
+                <li>微信昵称：<strong class="js-withdraw-name"></strong></li>
+            </ul>
+            <a href="javascript:void(0);" class="btn-primary js-submit-withdraw-btn" btn-size="large"
+               data-event-statistic="task_newuser_withdraw1_confirmationpage_confirm">确认提现</a>
+        </article>
+    </section>
+</section>
+<!-- 提交提现 -->
+
+<!-- 确认提现 -->
+<section class="pop-box km-pop" km-pop-name="confirm-withdraw-pop">
+    <a href="javascript:void(0);" class="pop-close-btn js-confirm-withdraw-pop-btn" km-pop-name="confirm-withdraw-pop"
+       data-event-statistic="task_newuser_withdraw1_successpage_close"><i class="iconfont">&#xe611;</i></a>
+    <section class="pop-tb">
+        <article class="txt">
+            <span class="s-tit js-confirm-withdraw-pop-tit"></span>
+            <ul>
+                <li>&nbsp;</li>
+                <li class="js-confirm-withdraw-pop-message"></li>
+            </ul>
+        </article>
+    </section>
+    <section class="pop-tf"><a href="javascript:void(0);" class="js-confirm-withdraw-pop-btn"
+                               km-pop-name="confirm-withdraw-pop"
+                               data-event-statistic="task_newuser_withdraw1_successpage_confirm">确定</a></section>
+</section>
+<!-- 确认提现 -->
+
+<!-- 观看小视频提示 -->
+<section class="pop-box km-pop" km-pop-name="warm-tips-confirm">
+    <section class="pop-tb">
+        <article class="txt">
+            <span class="s-tit">友情提示</span>
+            <span class="s-des">视频时长约15~30秒，建议在WI-FI环境下观看，需看完广告才有金币奖励哦！</span>
+        </article>
+    </section>
+    <section class="pop-tf"><a href="javascript:void(0);" data-event-statistic="task_daily_watchvideos_hint_cancel" class="km-pop-hide-btn">放弃</a><a href='javascript:void(0);' data-event-statistic="task_daily_watchvideos_hint_gowatch" class="cur go-watch-video" km-pop-name="warm-tips-confirm">去观看</a></section>
+</section>
+<!-- 观看小视频提示 --><section class="pop-mask km-pop-mask"></section>
+<section class="g-loading-json js-loading">
+    <section id="loading" class="loading-pic"></section>
+</section><section class="g-toast km-toast">
+	<span class="s-tit km-toast-tit"></span>
+	<span class="s-txt km-toast-txt"></span>
+</section><script src="https://img1.km.com/bookimg/free/js/app/20181103/bodymovin.min.js"></script>
+<script src="https://img1.km.com/bookimg/free/js/app/20181103/zepto.cookie.js"></script>
+<script src="https://img1.km.com/bookimg/free/js/app/20181103/1_0_0/km.package.js"></script>
+<script src="https://img1.km.com/bookimg/free/js/app/20181103/1_0_0/effect.min.js"></script>
+<script src="https://img1.km.com/bookimg/free/js/app/20181103/1_0_0/global.js?v5"></script>
+<script src="https://img1.km.com/bookimg/free/js/app/20181103/swiper/swiper-4.2.0.min.js" 0="frontend\assets\AppAsset"></script>
+<script src="//castatic.fengkongcloud.com/pr/v1.0.1/smcp.min.js" 0="frontend\assets\AppAsset"></script>
+<script src="https://img1.km.com/bookimg/free/js/app/20181103/1_0_0/task-center.js?v2.1" 0="frontend\assets\AppAsset"></script></body>
+</html>

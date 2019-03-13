@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>工单表</title>
+</head>
+<body>
+<table border="1">
+    <!--border这里是加上边框-->
+    <thead>  <!--表头信息-->
+        <tr>
+            <th>ID</th>           <!--th与td的区别：th会自动加粗-->
+            <th>工单类型</th>
+            <th>工单简介</th>
+            <th>审批人</th>
+            <th>执行人</th>
+            <th>状态</th>
+            <th>详情</th>
+        </tr>
+    </thead>
+    <!--一个tr是1行，一个td是一列，一行里可能有很多列。-->
+    <!--如果想加多个行就加多个tr即可-->
+    <tbody>    <!--表体信息-->
+        <tr>
+            <td>10074</td>
+            <td>DNS需求</td>
+            <td>神之翼安卓服支付回调域名申请</td>
+            <td>张xx</td>
+            <td>褚xx</td>
+            <td>业务结束</td>
+            <td>查看</td>
+        </tr>
+        <tr>
+            <td>10043</td>
+            <td>ACL需求</td>
+            <td>神之翼研发访问版本测试服</td>
+            <td>张xx</td>
+            <td>褚xx</td>
+            <td>业务结束</td>
+            <td>查看</td>
+        </tr>
+        <tr>
+            <td>10042</td>
+            <td>ACL需求</td>
+            <td>神之翼研发访问公司FTP服务器</td>
+            <td>张xx</td>
+            <td>褚xx</td>
+            <td>业务结束</td>
+            <td>查看</td>
+        </tr>
+    </tbody>
+</table>
+
+<script src="t1.js"></script>
+<input type="checkbox" checked="checked" >
+<input type='text'>
+<input type='password'>
+<input type='button' value='登陆'>
+<form>
+	<p>用户名：<input type='text'></p>
+	<p>密  码：<input type='text'></p>
+	<input type='button' value='登陆' onclick='f();'>
+</form>
+</body>
+</html>
