@@ -5,6 +5,22 @@
     <title>login</title>
 </head>
 <body>
-<h1>登录好了</h1>
+<h1 style="background-color: antiquewhite;color:black;">用户输入</h1>
+    <table border="1">
+        <thead>
+            <th>用户名</th>
+            <th>密码</th>
+        </thead>
+        <tbody>
+            {% for line in data %}
+                <tr>
+                    <td>{{line.username}}</td>
+                    <td>{{line.password}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <script src="/static/js/jquery-1.12.4.js"></script>
 </body>
 </html>
