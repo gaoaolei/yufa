@@ -26,3 +26,4 @@ def readImage(fp):
         return readData(fp)
     return None
 print readImage('E:\IMG_0057.jpg')
+bygugyuguighui
