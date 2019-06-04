@@ -20,6 +20,7 @@ from django.conf.urls import url  #导入url
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', views.index),
+    path('welcome/', views.welcome),
+    path('index/',views.index),
     # url(r'index/', views.index), # 同上有什么区别
 ]
