@@ -8,6 +8,8 @@ def search_post(request):
         print(request.POST)
         print(request.path)
         print(request.method)
+        print(request.scheme)
+        print(request.body)
         context['rlt'] = request.POST['q']
     return render(request, 'post.html', context)
 
