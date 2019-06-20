@@ -23,10 +23,12 @@ def get_index_page(request):
 
 def get_detail_page(request, middle_article_id):
     articles = Article.objects.all()
-    curr_article = None
-    for article in articles:
-        if article.article_id == middle_article_id:
-            curr_article = article
-            break
+    # curr_article = Article.objects.get(article_id=middle_article_id)
+    curr_article = Article.objects.get(pk=middle_article_id)
+    # curr_article = None
+    # for article in articles:
+    #     if article.article_id == middle_article_id:
+    #         curr_article = article
+    #         break
     section_list = curr_article.content.split('\n')   # 为了换行，好看点
     return render(request, 'detail.html', {'curr_article':curr_article, "section_list":section_list})
