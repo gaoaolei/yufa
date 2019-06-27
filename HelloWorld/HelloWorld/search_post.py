@@ -11,5 +11,5 @@ def search_post(request):
         print(request.scheme)
         print(request.body)
         context['rlt'] = request.POST['q']
-    return render(request, 'post.html', context)
+    return render(request, 'search_post.html', context)
 

@@ -16,12 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url
-from . import view, search, search_post
+from . import view, search_get, search_post
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url('^hello$',view.hello),
-    path('search_form/', search.search_form),
-    url('^search/', search.search),
+    url('^search/', search_get.search_get),
+    url('search_result', search_get.search_result),
     url('^search_post$', search_post.search_post)
 ]
