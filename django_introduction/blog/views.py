@@ -23,12 +23,33 @@ def get_index_page(request):
 
 def get_detail_page(request, middle_article_id):
     articles = Article.objects.all()
-    # curr_article = Article.objects.get(article_id=middle_article_id)
-    curr_article = Article.objects.get(pk=middle_article_id)
+    for i in range(0,len(articles)):
+        if articles[i].article_id == middle_article_id:
+            if i == 0:
+                previous_article = articles[i]
+                next_article = articles[i+1]
+            elif i == len(articles)-1:
+                previous_article = articles[i-1]
+                next_article = articles[i]
+            else :
+                previous_article = articles[i-1]
+                next_article = articles[i+1]
+        else:
+            continue
+
+
+    # 简单方法
+    curr_article = Article.objects.get(article_id=middle_article_id)
+
+    # 笨方法
+    # articles = Article.objects.all()
     # curr_article = None
     # for article in articles:
     #     if article.article_id == middle_article_id:
     #         curr_article = article
     #         break
     section_list = curr_article.content.split('\n')   # 为了换行，好看点
-    return render(request, 'detail.html', {'curr_article':curr_article, "section_list":section_list})
+    return render(request, 'detail.html', {'curr_article':curr_article,
+                                           "section_list":section_list,
+                                           'next_article':next_article,
+                                           'previous_article':previous_article})

@@ -8,5 +8,6 @@ class Article(models.Model):
     content = models.TextField()
     publish_time = models.TimeField(auto_now=True)
 
+
     def __str__(self):
         return self.title
