@@ -1,22 +1,22 @@
-# _*_coding:utf-8_*_
-'''def example():
-    print "gaoaolei zhen shuai!"
-b=example
-b()
-
-print b.__name__
-print example._name_
-'''
 def log(func):
     def wrapper(*args, **kw):
-        print('call %s():' % func.__name__)
+        print('我是装饰用的小花朵，调用我的都有花朵装饰哦')
         return func(*args, **kw)
     return wrapper
+# 上面的装饰函数固定抄写套用就行了，不用修改，除了print
+
 @log
-def now():
-    print ('gaoaolei')
-now()
+def a(x,y=2):
+    return pow(x,y)
+
 @log
-def nihao():
-    print 'nihao'
-nihao()
+def b(*args):
+    sum = 0
+    for i in args:
+        sum = sum + i
+    return sum
+
+if __name__ == '__main__':
+    print(a(2,3))
+    print(b(*list(range(101))))
+

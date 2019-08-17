@@ -4,8 +4,11 @@ def sort1(x):
             if x[i] > x[i+1]:
                 x[i], x[i+1] = x[i+1], x[i]
     return x
-l = [23, 12, 4, 6, 8]
-print(sort1(l))
+list = [13, 22, 4, 60, 8]
+print(sort1(list))
+
+g = [x[i] for j in range(len(x)-1) for i in range(len(x)-1) if x[i]>x[i+1]:(x[i], x[i+1] = x[i+1], x[i])]
+
 # 优化之后
 def sort2(x):
     for j in range(len(x)-1, 0, -1):

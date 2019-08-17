@@ -1,0 +1,72 @@
+e0.py [2019-08-17 15:21:12] [DEBUG] this message debug
+e0.py [2019-08-17 15:21:12] [INFO] xiaodeng
+e0.py [2019-08-17 15:21:12] [WARNING] python
+e0.py [2019-08-17 15:21:12] [ERROR] division by zero
+Traceback (most recent call last):
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 23, in main
+    bar('0')
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 19, in bar
+    return foo(s) * 2
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 16, in foo
+    return 10 / int(s)
+ZeroDivisionError: division by zero
+e0.py [2019-08-17 15:21:36] [DEBUG] this message debug
+e0.py [2019-08-17 15:21:36] [INFO] xiaodeng
+e0.py [2019-08-17 15:21:36] [WARNING] python
+e0.py [2019-08-17 15:21:36] [ERROR] division by zero
+Traceback (most recent call last):
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 23, in main
+    bar('0')
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 19, in bar
+    return foo(s) * 2
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 16, in foo
+    return 10 / int(s)
+ZeroDivisionError: division by zero
+e0.py [2019-08-17 15:21:37] [DEBUG] this message debug
+e0.py [2019-08-17 15:21:37] [INFO] xiaodeng
+e0.py [2019-08-17 15:21:37] [WARNING] python
+e0.py [2019-08-17 15:21:37] [ERROR] division by zero
+Traceback (most recent call last):
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 23, in main
+    bar('0')
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 19, in bar
+    return foo(s) * 2
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 16, in foo
+    return 10 / int(s)
+ZeroDivisionError: division by zero
+e0.py [2019-08-17 15:21:57] [DEBUG] this message g
+e0.py [2019-08-17 15:21:57] [INFO] xiaodeng
+e0.py [2019-08-17 15:21:57] [WARNING] python
+e0.py [2019-08-17 15:21:57] [ERROR] division by zero
+Traceback (most recent call last):
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 23, in main
+    bar('0')
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 19, in bar
+    return foo(s) * 2
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 16, in foo
+    return 10 / int(s)
+ZeroDivisionError: division by zero
+e0.py [2019-08-17 16:10:40] [DEBUG] this message g
+e0.py [2019-08-17 16:10:40] [INFO] xiaodeng
+e0.py [2019-08-17 16:10:40] [WARNING] python
+e0.py [2019-08-17 16:10:40] [ERROR] division by zero
+Traceback (most recent call last):
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 23, in main
+    bar('0')
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 19, in bar
+    return foo(s) * 2
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 16, in foo
+    return 10 / int(s)
+ZeroDivisionError: division by zero
+e0.py [2019-08-17 16:11:44] [DEBUG] this message g
+e0.py [2019-08-17 16:11:44] [INFO] xiaodeng
+e0.py [2019-08-17 16:11:44] [WARNING] python
+e0.py [2019-08-17 16:11:44] [ERROR] division by zero
+Traceback (most recent call last):
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 24, in main
+    bar('0')
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 19, in bar
+    return foo(s) * 2
+  File "D:/Program Files (x86)/SmartGit/git/yufa/ERR1/e0.py", line 16, in foo
+    return 10 / int(s)
+ZeroDivisionError: division by zero
