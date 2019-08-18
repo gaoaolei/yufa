@@ -2,7 +2,7 @@
 # coding:utf-8
 from wsgiref.simple_server import make_server
 from jinja2 import Template
-import mysqltest
+import 操作mysql
 
 def index():
     # return 'welcome you!'
@@ -16,8 +16,8 @@ def index():
     # result = result.encode('utf-8')
     # return result
     # 数据处理
-    name = mysqltest.check('select nickname from user where id=1062103420')
-    result = mysqltest.check('select nickname from user limit 10')
+    name = 操作mysql.check('select nickname from user where id=1062103420')
+    result = 操作mysql.check('select nickname from user limit 10')
     user_list = []
     for item in result:
         user_list.append(item[0])
