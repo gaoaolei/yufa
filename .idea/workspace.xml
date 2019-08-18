@@ -2,53 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b8c9f09-b6fe-4152-9bd2-63ca7dad8c68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/自定义类.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/1017.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ERR/err_logging.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ERR/err_raise.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ERR/err_reraise.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ERR/err_stack.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ERR/err_try.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ERR1/e0.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ERR1/e1捕获异常.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ERR1/e2打印错误.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ERR1/e3记录错误.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ERR1/抛出异常.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Student.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Student1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/attr.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/call.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/call_module.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/default_ags.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/default_ags_1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dict.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/duochong.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/file_read.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/file_write.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/func_as_out.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/haha.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hanshuzuoweifanhuizhi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/multioutput.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/gao.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/导入.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package1/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package1/name_main1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package1/name_main2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package1/nihao.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package1/nihao1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package1/run.bat" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/冒泡排序.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/排序.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MethodType.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/beishan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/code.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/decorator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/module (2).py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/order.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/photo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pil.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pil_new.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/shanchu.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sorted.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/suanxixian.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sys.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/varible_ags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/while.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/循环嵌套.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/装饰器/带参数.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/试试.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/验证码.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/@property2.py" afterPath="$PROJECT_DIR$/@property2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anonymous_func.py" afterPath="$PROJECT_DIR$/anonymous_func.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/argv.py" afterPath="$PROJECT_DIR$/argv.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/closure.py" afterPath="$PROJECT_DIR$/closure.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decorator.py" afterPath="$PROJECT_DIR$/decorator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filter.py" afterPath="$PROJECT_DIR$/filter.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator.py" afterPath="$PROJECT_DIR$/generator.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test1.py" afterPath="$PROJECT_DIR$/test1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/循环嵌套.py" afterPath="$PROJECT_DIR$/循环嵌套.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/enumber.py" afterPath="$PROJECT_DIR$/enum_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/装饰器/函数嵌套.py" afterPath="$PROJECT_DIR$/装饰器/函数嵌套.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/装饰器/装饰器内容可变2.py" afterPath="$PROJECT_DIR$/装饰器/装饰器内容可变2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Error+Log/error+log.py" afterPath="$PROJECT_DIR$/错误和日志/error+log.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Error+Log/loggingTest.log" afterPath="$PROJECT_DIR$/错误和日志/loggingTest.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/mod.py" afterPath="$PROJECT_DIR$/代码模块的标准写法.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stack.py" afterPath="$PROJECT_DIR$/栈(stack)的实现.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,31 +44,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="str_format.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/str_format.py">
+      <file leaf-file-name="remote_link.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/remote_link.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-365">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="216">
+              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="循环嵌套.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/循环嵌套.py">
+      <file leaf-file-name="photo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/图片压缩处理/photo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="105" lean-forward="true" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
+            <state relative-caret-position="180">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generator.py">
+      <file leaf-file-name="生成验证码.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/生成图形验证码/生成验证码.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            <state relative-caret-position="216">
+              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="说明" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HelloWorld/说明">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vertifycode.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/生成图形验证码/vertifycode.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="types.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Python36-32/Lib/types.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,19 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/a (2).py" />
-        <option value="$USER_HOME$/Desktop/b.py" />
-        <option value="$PROJECT_DIR$/mysite4/mysite4/settings.py" />
-        <option value="$USER_HOME$/Desktop/abc.py" />
-        <option value="$USER_HOME$/Desktop/内存占用测试/memorytest.py" />
-        <option value="$PROJECT_DIR$/mysite4/static/jquery-1.12.4.js" />
-        <option value="$PROJECT_DIR$/mysite3/myapp3/admin.py" />
-        <option value="$PROJECT_DIR$/mysite4/templates/welcome.html" />
-        <option value="$PROJECT_DIR$/mysite4/mysite4/urls.py" />
-        <option value="$PROJECT_DIR$/mysite4/myapp4/views.py" />
-        <option value="$PROJECT_DIR$/mysite4/templates/index.html" />
-        <option value="$PROJECT_DIR$/HelloWorld/templates/hello.html" />
-        <option value="$PROJECT_DIR$/HelloWorld/TestModel/models.py" />
         <option value="$PROJECT_DIR$/HelloWorld/templates/search.py" />
         <option value="$PROJECT_DIR$/HelloWorld/templates/search_from.html" />
         <option value="$PROJECT_DIR$/HelloWorld/templates/post.py" />
@@ -152,8 +151,6 @@
         <option value="$PROJECT_DIR$/decorator.py" />
         <option value="$PROJECT_DIR$/default_ags_1.py" />
         <option value="$PROJECT_DIR$/duochong.py" />
-        <option value="$PROJECT_DIR$/test1.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/enumber.py" />
         <option value="$PROJECT_DIR$/filter.py" />
         <option value="$PROJECT_DIR$/func_as_out.py" />
@@ -161,8 +158,23 @@
         <option value="$PROJECT_DIR$/hanshuzuoweifanhuizhi.py" />
         <option value="$PROJECT_DIR$/closure.py" />
         <option value="$PROJECT_DIR$/multioutput.py" />
-        <option value="$PROJECT_DIR$/generator.py" />
         <option value="$PROJECT_DIR$/循环嵌套.py" />
+        <option value="$PROJECT_DIR$/varible_ags.py" />
+        <option value="$PROJECT_DIR$/sorted.py" />
+        <option value="$PROJECT_DIR$/generator.py" />
+        <option value="$PROJECT_DIR$/order.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/module (2).py" />
+        <option value="$PROJECT_DIR$/stack.py" />
+        <option value="$PROJECT_DIR$/mod.py" />
+        <option value="$PROJECT_DIR$/MethodType.py" />
+        <option value="$PROJECT_DIR$/装饰器/带参数.py" />
+        <option value="$PROJECT_DIR$/装饰器/函数嵌套.py" />
+        <option value="$PROJECT_DIR$/装饰器/装饰器内容可变2.py" />
+        <option value="$PROJECT_DIR$/photo.py" />
+        <option value="$PROJECT_DIR$/图片压缩处理/photo.py" />
+        <option value="$PROJECT_DIR$/验证码.py" />
       </list>
     </option>
   </component>
@@ -190,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,6 +213,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -211,6 +223,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files (x86)\SmartGit\git\yufa\生成图形验证码" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Program Files (x86)\SmartGit\git\yufa\mysite4\static\imgs" />
       <recent name="D:\Program Files (x86)\SmartGit\git\yufa\mysite4\static\js" />
@@ -228,42 +243,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.generator">
-    <configuration name="循环嵌套" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.生成验证码">
+    <configuration name="生成验证码" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/生成图形验证码" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/循环嵌套.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/生成图形验证码/生成验证码.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="closure" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="带参数" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/装饰器" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/closure.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/装饰器/带参数.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="验证码" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -275,29 +290,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/验证码.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="hanshuzuoweifanhuizhi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="photo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/图片压缩处理" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hanshuzuoweifanhuizhi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/图片压缩处理/photo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="multioutput" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="photo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -309,25 +324,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multioutput.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/photo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.hanshuzuoweifanhuizhi" />
-      <item index="1" class="java.lang.String" itemvalue="Python.closure" />
-      <item index="2" class="java.lang.String" itemvalue="Python.multioutput" />
-      <item index="3" class="java.lang.String" itemvalue="Python.循环嵌套" />
-      <item index="4" class="java.lang.String" itemvalue="Python.generator" />
+      <item index="0" class="java.lang.String" itemvalue="Python.带参数" />
+      <item index="1" class="java.lang.String" itemvalue="Python.photo" />
+      <item index="2" class="java.lang.String" itemvalue="Python.photo (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.验证码" />
+      <item index="4" class="java.lang.String" itemvalue="Python.生成验证码" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.generator" />
-        <item index="1" class="java.lang.String" itemvalue="Python.循环嵌套" />
-        <item index="2" class="java.lang.String" itemvalue="Python.multioutput" />
-        <item index="3" class="java.lang.String" itemvalue="Python.closure" />
-        <item index="4" class="java.lang.String" itemvalue="Python.hanshuzuoweifanhuizhi" />
+        <item index="0" class="java.lang.String" itemvalue="Python.生成验证码" />
+        <item index="1" class="java.lang.String" itemvalue="Python.验证码" />
+        <item index="2" class="java.lang.String" itemvalue="Python.photo (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.photo" />
+        <item index="4" class="java.lang.String" itemvalue="Python.带参数" />
       </list>
     </recent_temporary>
   </component>
@@ -471,16 +486,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16263238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20499243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30278233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25980392" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="-1311" y="346" width="1322" height="225" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25859246" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="-1311" y="346" width="1322" height="225" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -489,7 +504,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -509,261 +523,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package1/name_main1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/调用外部程序/视频录制.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@property2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/@property1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/自定义类.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/beishan.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/attr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/call.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/call_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/argv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anonymous_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default_ags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default_ags_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/duochong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datetimeTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Python36-32/Lib/datetime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28284">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file_write.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func_as_out.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-297851564/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1146">
-          <caret line="4168" column="12" lean-forward="true" selection-start-line="4168" selection-start-column="12" selection-end-line="4168" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/haha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enum_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2795">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/global.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/combine_ags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hanshuzuoweifanhuizhi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/closure.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,27 +534,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/key_ags.py">
+    <entry file="file://$PROJECT_DIR$/multioutput.py" />
+    <entry file="file://$PROJECT_DIR$/Student.py" />
+    <entry file="file://$PROJECT_DIR$/Student1.py" />
+    <entry file="file://$PROJECT_DIR$/varible_ags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="108">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multioutput.py">
+    <entry file="file://$PROJECT_DIR$/while.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="90">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module (2).py">
+    <entry file="file://$PROJECT_DIR$/shanchu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -799,47 +564,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mod.py">
+    <entry file="file://$PROJECT_DIR$/str_format.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/冒泡排序.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MethodType.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-297851564/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="-468">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Student.py">
+    <entry file="file://$PROJECT_DIR$/generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/排序.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Student1.py">
+    <entry file="file://$PROJECT_DIR$/order.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suanxixian.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strcheck.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -852,34 +636,231 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/str_format.py">
+    <entry file="file://$PROJECT_DIR$/栈(stack)的实现.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-365">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="126">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorted.py">
+    <entry file="file://$PROJECT_DIR$/module (2).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="216">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/代码模块的标准写法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqltest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Python36-32/Lib/types.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MethodType.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/key_ags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recursive_func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@property2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/@property1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/装饰器/装饰器内容可变2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/装饰器/装饰器内容可变.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/装饰器/升级.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/装饰器/带参数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片压缩处理/source.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片压缩处理/output.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strcheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片压缩处理/photo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beishan.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/装饰器/函数嵌套.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suanxixian.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/remote_link.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="216">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pil_new.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片压缩处理/photo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeasdfadf.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/验证码.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生成图形验证码/vertifycode.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/生成图形验证码/生成验证码.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -892,18 +873,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generator.py">
+    <entry file="file://$PROJECT_DIR$/HelloWorld/说明">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/循环嵌套.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="105" lean-forward="true" selection-start-line="9" selection-start-column="105" selection-end-line="9" selection-end-column="105" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
