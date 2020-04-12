@@ -78,3 +78,17 @@ print(values)
 # 关闭Cursor和Connection:
 cursor.close()
 conn.close()
+
+
+# 返回字典  cursorclass = MySQLdb.cursors.DictCursor
+import MySQLdb.cursors
+host = '172.16.100.80'
+port = 3306
+user = 'qimao_free_test'
+password = 'd3R6d190ZXN0Cg=='
+database = 'qimao_free'
+conn = MySQLdb.connect(host=host,port=port,user=user,password=password,database=database,charset = 'utf8',cursorclass = MySQLdb.cursors.DictCursor)
+cursor = conn.cursor()
+cursor.execute("SELECT * FROM adv WHERE area_config_id=11 AND platform=1 AND STATUS=1 AND min_app_version=40060 AND ab_group_id='' AND adv_code !='' ")
+a= cursor.fetchone()
+print(type(a))

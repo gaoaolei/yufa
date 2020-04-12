@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b8c9f09-b6fe-4152-9bd2-63ca7dad8c68" name="Default" comment="asdfaf">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask接口.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/生成图形验证码/简易验证码.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读ini配置/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读ini配置/a.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读ini配置/readconfig.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="7b8c9f09-b6fe-4152-9bd2-63ca7dad8c68" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/yufa.iml" afterPath="$PROJECT_DIR$/.idea/yufa.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序.py" afterPath="$PROJECT_DIR$/排序.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/错误和日志/error+log.py" afterPath="$PROJECT_DIR$/错误和日志/error+log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/错误和日志/loggingTest.log" afterPath="$PROJECT_DIR$/错误和日志/loggingTest.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -427,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559656278659</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="asdfaf">
+      <created>1586684675876</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1586684675877</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
