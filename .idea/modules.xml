@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../advapimonitor/.idea/advapimonitor.iml" filepath="$PROJECT_DIR$/../advapimonitor/.idea/advapimonitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../galinterface_adv/.idea/galinterface.iml" filepath="$PROJECT_DIR$/../galinterface_adv/.idea/galinterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pachong/.idea/pachong.iml" filepath="$PROJECT_DIR$/../pachong/.idea/pachong.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/yufa.iml" filepath="$PROJECT_DIR$/.idea/yufa.iml" />
     </modules>
   </component>

@@ -9,9 +9,12 @@ datetime='%Y-%m-%d %H:%M:%S'
 #设置日志输出格式和级别
 #filemode:以什么模式操作文件
 logging.basicConfig(filename=log_filename,filemode='a',format=log_format,datefmt=datetime,level=logging.DEBUG)
-logging.debug('this message g')
+logging.debug('aaaaaaaaa')
 logging.info('xiaodeng')
 logging.warning('python')
+
+
+
 def foo(s):
     return 10 / int(s)
 
@@ -23,9 +26,10 @@ def main():
     try:
         bar('0')
     except Exception as e:
-        logging.basicConfig(filename=log_filename, filemode='w', format=log_format, datetime=datetime,
-                            level=logging.DEBUG)
+        # logging.basicConfig(filename=log_filename, filemode='w', format=log_format, datefmt=datetime,
+        #                     level=logging.DEBUG)
         logging.exception(e)
+
     else:
         print('else')
     finally:

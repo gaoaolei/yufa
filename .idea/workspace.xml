@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b8c9f09-b6fe-4152-9bd2-63ca7dad8c68" name="Default" comment="" />
+    <list default="true" id="7b8c9f09-b6fe-4152-9bd2-63ca7dad8c68" name="Default" comment="asdfaf">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flask接口.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/生成图形验证码/简易验证码.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读ini配置/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读ini配置/a.ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/读ini配置/readconfig.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/yufa.iml" afterPath="$PROJECT_DIR$/.idea/yufa.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/排序.py" afterPath="$PROJECT_DIR$/排序.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/错误和日志/error+log.py" afterPath="$PROJECT_DIR$/错误和日志/error+log.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/错误和日志/loggingTest.log" afterPath="$PROJECT_DIR$/错误和日志/loggingTest.log" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,18 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="操作mysql.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/操作mysql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,6 +38,7 @@
     <findStrings>
       <find>class</find>
       <find>文档</find>
+      <find>qm</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -44,50 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HelloWorld/templates/search.py" />
-        <option value="$PROJECT_DIR$/HelloWorld/templates/search_from.html" />
-        <option value="$PROJECT_DIR$/HelloWorld/templates/post.py" />
-        <option value="$PROJECT_DIR$/HelloWorld/HelloWorld/urls.py" />
-        <option value="$PROJECT_DIR$/HelloWorld/HelloWorld/settings.py" />
-        <option value="$PROJECT_DIR$/HelloWorld/HelloWorld/search.py" />
-        <option value="$PROJECT_DIR$/HelloWorld/django-HttpRequest.py" />
-        <option value="$PROJECT_DIR$/HelloWorld/HelloWorld/view.py" />
-        <option value="$PROJECT_DIR$/HelloWorld/HelloWorld/search_post.py" />
-        <option value="$PROJECT_DIR$/HelloWorld/templates/search_form.html" />
-        <option value="$PROJECT_DIR$/HelloWorld/templates/post.html" />
-        <option value="$PROJECT_DIR$/ERR1/抛出异常.py" />
-        <option value="$PROJECT_DIR$/ERR1/loggingTest.log" />
-        <option value="$PROJECT_DIR$/ERR1/e0.py" />
-        <option value="$PROJECT_DIR$/ERR1/error+log.py" />
-        <option value="$PROJECT_DIR$/package/ao.py" />
-        <option value="$PROJECT_DIR$/package/gao.py" />
-        <option value="$PROJECT_DIR$/package1/name_main1.py" />
-        <option value="$PROJECT_DIR$/package/__init__.py" />
-        <option value="$PROJECT_DIR$/1017.py" />
-        <option value="$PROJECT_DIR$/@property2.py" />
-        <option value="$PROJECT_DIR$/anonymous_func.py" />
-        <option value="$PROJECT_DIR$/argv.py" />
-        <option value="$PROJECT_DIR$/attr.py" />
-        <option value="$PROJECT_DIR$/decorator.py" />
-        <option value="$PROJECT_DIR$/default_ags_1.py" />
-        <option value="$PROJECT_DIR$/duochong.py" />
-        <option value="$PROJECT_DIR$/enumber.py" />
-        <option value="$PROJECT_DIR$/filter.py" />
-        <option value="$PROJECT_DIR$/func_as_out.py" />
-        <option value="$PROJECT_DIR$/haha.py" />
-        <option value="$PROJECT_DIR$/hanshuzuoweifanhuizhi.py" />
-        <option value="$PROJECT_DIR$/closure.py" />
-        <option value="$PROJECT_DIR$/multioutput.py" />
-        <option value="$PROJECT_DIR$/循环嵌套.py" />
-        <option value="$PROJECT_DIR$/varible_ags.py" />
-        <option value="$PROJECT_DIR$/sorted.py" />
-        <option value="$PROJECT_DIR$/generator.py" />
-        <option value="$PROJECT_DIR$/order.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/test1.py" />
-        <option value="$PROJECT_DIR$/module (2).py" />
-        <option value="$PROJECT_DIR$/stack.py" />
-        <option value="$PROJECT_DIR$/mod.py" />
         <option value="$PROJECT_DIR$/MethodType.py" />
         <option value="$PROJECT_DIR$/装饰器/带参数.py" />
         <option value="$PROJECT_DIR$/装饰器/函数嵌套.py" />
@@ -95,13 +55,57 @@
         <option value="$PROJECT_DIR$/photo.py" />
         <option value="$PROJECT_DIR$/图片压缩处理/photo.py" />
         <option value="$PROJECT_DIR$/验证码.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/monitor.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/GetAPIDate.py" />
+        <option value="$PROJECT_DIR$/排序.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/CheckABGroup.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/param.txt" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/caselist.txt" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/runAll.py" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/testCase/test02case.py" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/config.ini" />
+        <option value="$PROJECT_DIR$/../advapimonitor/GetPath.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/GetMinAppVersion.py" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/testCase/test01case.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/OperateExcel.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/qm.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/Check.py" />
+        <option value="$PROJECT_DIR$/生成图形验证码/简易验证码.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/headers.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/testcase/testcase001.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/GetABGroup.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/tools1.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/testcase/ReaderAdvList2.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/GetABGroupData.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/GetMysqlData.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/OperateDatabase.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/GetAPIData.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/tools.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/OperateAPI.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/testcase/InitAdv.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/test.py" />
+        <option value="$PROJECT_DIR$/../advapimonitor/testcase/ReaderAdvList4.py" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/testCase/test03case.py" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/result/baidu.log" />
+        <option value="$PROJECT_DIR$/错误和日志/error+log.py" />
+        <option value="$PROJECT_DIR$/错误和日志/loggingTest.log" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/common/configEmail.py" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/testtest.py" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/a/b.py" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/getpathInfo.py" />
+        <option value="$PROJECT_DIR$/读ini配置/a.ini.py" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/readConfig.py" />
+        <option value="$PROJECT_DIR$/读ini配置/a.ini" />
+        <option value="$PROJECT_DIR$/读ini配置/readconfig.py" />
+        <option value="$PROJECT_DIR$/../galinterface_adv/readExcel.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="38" />
-    <option name="y" value="2" />
-    <option name="width" value="1176" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-41" />
+    <option name="y" value="-17" />
+    <option name="width" value="1364" />
     <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -129,6 +133,36 @@
               <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
               <item name="yufa" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galinterface_adv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galinterface_adv" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galinterface_adv" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galinterface_adv" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galinterface_adv" type="462c0819:PsiDirectoryNode" />
+              <item name="testFile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="galinterface_adv" type="462c0819:PsiDirectoryNode" />
+              <item name="testFile" type="462c0819:PsiDirectoryNode" />
+              <item name="case" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -138,17 +172,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/b.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../galinterface_adv" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Program Files (x86)\SmartGit\git\yufa\生成图形验证码" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pythoncodenoremote\yufa" />
       <recent name="D:\Program Files (x86)\SmartGit\git\yufa\mysite4\static\imgs" />
       <recent name="D:\Program Files (x86)\SmartGit\git\yufa\mysite4\static\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Files (x86)\SmartGit\git\yufa\生成图形验证码" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -163,106 +198,106 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.生成验证码">
-    <configuration name="生成验证码" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test_api">
+    <configuration name="readConfig" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/生成图形验证码" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../galinterface_adv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/生成图形验证码/生成验证码.py" />
+      <module name="galinterface" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../galinterface_adv/readConfig.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="带参数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="readExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/装饰器" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../galinterface_adv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/装饰器/带参数.py" />
+      <module name="galinterface" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../galinterface_adv/readExcel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="验证码" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="readconfig" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/读ini配置" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/验证码.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/读ini配置/readconfig.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="photo (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/图片压缩处理" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../galinterface_adv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/图片压缩处理/photo.py" />
+      <module name="galinterface" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../galinterface_adv/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="photo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../galinterface_adv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/photo.py" />
+      <module name="galinterface" />
+      <option name="SCRIPT_NAME" value="D:\Pythoncodenoremote\yufa\flask接口.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.带参数" />
-      <item index="1" class="java.lang.String" itemvalue="Python.photo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.photo (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.验证码" />
-      <item index="4" class="java.lang.String" itemvalue="Python.生成验证码" />
+      <item index="0" class="java.lang.String" itemvalue="Python.readConfig" />
+      <item index="1" class="java.lang.String" itemvalue="Python.readconfig" />
+      <item index="2" class="java.lang.String" itemvalue="Python.readExcel" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_api" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.生成验证码" />
-        <item index="1" class="java.lang.String" itemvalue="Python.验证码" />
-        <item index="2" class="java.lang.String" itemvalue="Python.photo (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.photo" />
-        <item index="4" class="java.lang.String" itemvalue="Python.带参数" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test_api" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.readExcel" />
+        <item index="3" class="java.lang.String" itemvalue="Python.readconfig" />
+        <item index="4" class="java.lang.String" itemvalue="Python.readConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -395,6 +430,38 @@
     <option name="localTasksCounter" value="17" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_ReaderAdvList4_py - 2020.04.11 at 07h 55m 32s.xml">
+      <configuration name="Unittests in ReaderAdvList4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ReaderAdvList4_py - 2020.04.11 at 07h 56m 22s.xml">
+      <configuration name="Unittests in ReaderAdvList4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_ReaderAdvList4_py - 2020.04.11 at 08h 01m 18s.xml">
+      <configuration name="Unittests in ReaderAdvList4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test03case_py - 2020.04.12 at 14h 31m 24s.xml">
+      <configuration name="Unittests in test03case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test03case_py - 2020.04.12 at 14h 31m 49s.xml">
+      <configuration name="Unittests in test03case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test03case_py - 2020.04.12 at 14h 34m 29s.xml">
+      <configuration name="Unittests in test03case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test03case_py - 2020.04.12 at 14h 35m 36s.xml">
+      <configuration name="Unittests in test03case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test03case_py - 2020.04.12 at 14h 35m 45s.xml">
+      <configuration name="Unittests in test03case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test03case_py - 2020.04.12 at 14h 36m 07s.xml">
+      <configuration name="Unittests in test03case.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test03case_py - 2020.04.12 at 14h 36m 40s.xml">
+      <configuration name="Unittests in test03case.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -405,19 +472,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20499243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19667171" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30278233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30392158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25859246" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="-1311" y="346" width="1322" height="225" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25653595" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="-1311" y="346" width="1322" height="225" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -439,181 +505,123 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/closure.py">
+    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/site-packages/mysql/connector/cursor_cext.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="-1803">
+          <caret line="221" column="40" lean-forward="true" selection-start-line="221" selection-start-column="40" selection-end-line="221" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iteration_of_dict.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multioutput.py" />
-    <entry file="file://$PROJECT_DIR$/Student.py" />
-    <entry file="file://$PROJECT_DIR$/Student1.py" />
-    <entry file="file://$PROJECT_DIR$/varible_ags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/while.py">
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/qm.py" />
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/GetMinAppVersion.py" />
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/testCase/test01case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shanchu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/str_format.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/冒泡排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-297851564/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorted.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/排序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/栈(stack)的实现.py">
+    <entry file="file://$PROJECT_DIR$/生成图形验证码/简易验证码.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module (2).py">
+    <entry file="file://$PROJECT_DIR$/生成图形验证码/生成验证码.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="-265">
+          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/代码模块的标准写法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MethodType.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/key_ags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recursive_func.py">
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/Check.py" />
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/md5.py" />
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/headers.py" />
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/tools1.py" />
+    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/site-packages/paramunittest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/GetABGroupData.py" />
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/OperateDatabase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4659">
+          <caret line="294" column="36" lean-forward="true" selection-start-line="294" selection-start-column="36" selection-end-line="294" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/GetMysqlData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/decorator.py">
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/OperateAPI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@property2.py">
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/testcase/InitAdv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/GetAPIData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/testcase/ReaderAdvList2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1483">
+          <caret line="102" column="45" lean-forward="false" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/result/result.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -621,7 +629,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/@property1.py">
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/result/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="250" column="10" lean-forward="true" selection-start-line="250" selection-start-column="10" selection-end-line="250" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/result/logs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -629,15 +645,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/装饰器/装饰器内容可变2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/装饰器/装饰器内容可变.py">
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/result/baidu.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -645,23 +653,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/装饰器/升级.py">
+    <entry file="file://$PROJECT_DIR$/错误和日志/error+log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="159">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/装饰器/带参数.py">
+    <entry file="file://$PROJECT_DIR$/错误和日志/loggingTest.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/photo.py">
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/testCase/test03case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/testcase/ReaderAdvList4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/common/configDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/a/b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/common/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/caselist.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/common/configEmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="e#38#52#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/common/configHttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/configparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3851">
+          <caret line="764" column="8" lean-forward="false" selection-start-line="764" selection-start-column="8" selection-end-line="764" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/getpathInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读ini配置/a.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/读ini配置/readconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/geturlParams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/loggingTest.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -669,136 +807,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/图片压缩处理/source.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/图片压缩处理/output.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strcheck.py">
+    <entry file="file://$PROJECT_DIR$/../advapimonitor/OperateExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="198">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/图片压缩处理/photo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/site-packages/xlrd/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="534" column="17" lean-forward="false" selection-start-line="534" selection-start-column="17" selection-end-line="534" selection-end-column="17" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/beishan.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/site-packages/xlrd/book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="467" column="8" lean-forward="false" selection-start-line="467" selection-start-column="8" selection-end-line="467" selection-end-column="8" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/装饰器/函数嵌套.py">
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/runAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/readExcel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suanxixian.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/remote_link.py">
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="18">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pil_new.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pil.py">
+    <entry file="file://$PROJECT_DIR$/flask接口.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="144">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/图片压缩处理/photo.py">
+    <entry file="file://$PROJECT_DIR$/../galinterface_adv/readConfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeasdfadf.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/验证码.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/试试.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HelloWorld/说明">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/生成图形验证码/生成验证码.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/生成图形验证码/vertifycode.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Python36-32/Lib/types.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/操作mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="321">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
