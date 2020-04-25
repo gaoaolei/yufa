@@ -33,7 +33,7 @@ def login():
     f = open('login.html', 'r')
     data = f.read()
     return data
-
+# 路由
 def routers():
     urlpatterns = (
         ('/index/', index),
@@ -43,7 +43,6 @@ def routers():
 
 
 def RunServer(environ, start_response):
-    print environ
     start_response('200 OK', [('Content-Type', 'text/html')])
     url = environ['PATH_INFO']
     urlpatterns = routers()
@@ -60,5 +59,4 @@ def RunServer(environ, start_response):
 
 if __name__ == '__main__':
     httpd = make_server('', 8000, RunServer)
-    print "Serving HTTP on port 8000..."
     httpd.serve_forever()
