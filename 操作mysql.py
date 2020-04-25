@@ -80,7 +80,7 @@ cursor.close()
 conn.close()
 
 
-# 返回字典  cursorclass = MySQLdb.cursors.DictCursor
+# MySQLdb--返回数据但没有字段
 import MySQLdb.cursors
 host = '172.16.100.80'
 port = 3306
@@ -90,5 +90,48 @@ database = 'qimao_free'
 conn = MySQLdb.connect(host=host,port=port,user=user,password=password,database=database,charset = 'utf8',cursorclass = MySQLdb.cursors.DictCursor)
 cursor = conn.cursor()
 cursor.execute("SELECT * FROM adv WHERE area_config_id=11 AND platform=1 AND STATUS=1 AND min_app_version=40060 AND ab_group_id='' AND adv_code !='' ")
-a= cursor.fetchone()
+a = cursor.fetchone()       #返回的是()
+a = cursor.fetchall()       #返回的是((),(),())
 print(type(a))
+
+# # MySQLdb--返回数据且有字段
+import MySQLdb.cursors
+host = '172.16.100.80'
+port = 3306
+user = 'qimao_free_test'
+password = 'd3R6d190ZXN0Cg=='
+database = 'qimao_free'
+conn = MySQLdb.connect(host=host,port=port,user=user,password=password,database=database,charset = 'utf8',cursorclass = MySQLdb.cursors.DictCursor)
+cursor = conn.cursor()
+cursor.execute("SELECT * FROM adv WHERE area_config_id=11 AND platform=1 AND STATUS=1 AND min_app_version=40060 AND ab_group_id='' AND adv_code !='' ")
+a = cursor.fetchone()       #返回的是{}
+a = cursor.fetchall()       #返回的是({},{},{})
+print(type(a))
+
+# mysql.connector--返回数据但没字段
+import mysql.connector
+host = '172.16.100.80'
+port = 3306
+user = 'qimao_free_test'
+password = 'd3R6d190ZXN0Cg=='
+database = 'qimao_free'
+conn = mysql.connector.connect(host=host,port=port,user=user,password=password,database=database,charset = 'utf8')
+cursor = conn.cursor()
+cursor.execute("SELECT * FROM adv WHERE area_config_id=11 AND platform=1 AND STATUS=1 AND min_app_version=40060 AND ab_group_id='' AND adv_code !='' ")
+a = cursor.fetchone()       #返回的是()
+a = cursor.fetchall()       #返回的是[(),(),()]
+print(a)
+
+# mysql.connector--返回数据且有字段
+import mysql.connector
+host = '172.16.100.80'
+port = 3306
+user = 'qimao_free_test'
+password = 'd3R6d190ZXN0Cg=='
+database = 'qimao_free'
+conn = mysql.connector.connect(host=host,port=port,user=user,password=password,database=database,charset = 'utf8')
+cursor = conn.cursor(dictionary=True)
+cursor.execute("SELECT * FROM adv WHERE area_config_id=11 AND platform=1 AND STATUS=1 AND min_app_version=40060 AND ab_group_id='' AND adv_code !='' ")
+a = cursor.fetchone()       #返回的是{}
+a = cursor.fetchall()       #返回的是[{},{},{}]
+print(a)

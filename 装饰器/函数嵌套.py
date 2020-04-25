@@ -3,9 +3,9 @@ def endsign(func):
         return func() + '!!'
     return wrapper
 @endsign
-# 等同于执行了hello=endsign(hello)
+# 等同于执行了hello=endsign(hello)=wrapper(记录了参数为hello),所以hello()---wrapper()---func()+'!!'---hello()+'!!'
 def hello():
-    return 'hello'
+    return 'fuck'
 @endsign
 def hi():
     return 'hi'
