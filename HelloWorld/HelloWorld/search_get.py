@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import render, render_to_response, redirect
 from TestModel import models
-
+import time
 def search_get(request):
     return render_to_response('search_get.html')
 
@@ -14,6 +14,7 @@ def search_result(request):
             models.Test.objects.create(name=search_word)
             # message = '你搜索的内容为：' + search_word
             link = 'https://www.baidu.com/s?ie=UTF-8&wd=%s' % search_word
+            time.sleep(6)
             return redirect(link)
         else:
             return HttpResponse('你提交了空表单')
