@@ -8,3 +8,5 @@ class A():
 
 A = A(2,1)
 print(A.y)
+
+print(type(range(100)))
