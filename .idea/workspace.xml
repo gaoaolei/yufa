@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b8c9f09-b6fe-4152-9bd2-63ca7dad8c68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/类/类的实战/a.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/类/类的实战/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/类/类的实战/caseData.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/类/类的实战/caseParam.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/类/类的实战/继承.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/类/classmethod装饰器.py" afterPath="$PROJECT_DIR$/类/classmethod装饰器.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/类/类的特殊方法.py" afterPath="$PROJECT_DIR$/类/类的特殊方法.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/yufa.iml" afterPath="$PROJECT_DIR$/.idea/yufa.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,31 +15,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="filter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/高级函数/filter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classmethod装饰器.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="classmethod装饰器.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/类/classmethod装饰器.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="将方法变成属性.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/类/将方法变成属性.py">
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/编程-socket/简单的/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="238">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flask接口.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/编程-flask/flask接口.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flsk.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/编程-flask/flsk.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/编程-socket/简单的/server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -54,8 +70,8 @@
       <file leaf-file-name="类的特殊方法.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/类/类的特殊方法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="153">
+              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -64,8 +80,8 @@
       <file leaf-file-name="继承.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/类/类的实战/继承.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="85">
+              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -74,7 +90,7 @@
       <file leaf-file-name="caseParam.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/类/类的实战/caseParam.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="85">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="34" />
               <folding />
             </state>
@@ -84,8 +100,8 @@
       <file leaf-file-name="caseData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/类/类的实战/caseData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -93,21 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-297851564/builtins.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="3697" column="45" lean-forward="false" selection-start-line="3697" selection-start-column="45" selection-end-line="3697" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="187">
+              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -139,49 +145,49 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/验证码.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/monitor.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/GetAPIDate.py" />
+        <option value="D:/advapimonitor/monitor.py" />
+        <option value="D:/advapimonitor/GetAPIDate.py" />
         <option value="$PROJECT_DIR$/排序.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/CheckABGroup.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/param.txt" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/caselist.txt" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/runAll.py" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/testCase/test02case.py" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/config.ini" />
-        <option value="$PROJECT_DIR$/../advapimonitor/GetPath.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/GetMinAppVersion.py" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/testCase/test01case.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/OperateExcel.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/qm.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/Check.py" />
+        <option value="D:/advapimonitor/CheckABGroup.py" />
+        <option value="D:/advapimonitor/param.txt" />
+        <option value="D:/galinterface_adv/caselist.txt" />
+        <option value="D:/galinterface_adv/runAll.py" />
+        <option value="D:/galinterface_adv/testCase/test02case.py" />
+        <option value="D:/galinterface_adv/config.ini" />
+        <option value="D:/advapimonitor/GetPath.py" />
+        <option value="D:/advapimonitor/GetMinAppVersion.py" />
+        <option value="D:/galinterface_adv/testCase/test01case.py" />
+        <option value="D:/advapimonitor/OperateExcel.py" />
+        <option value="D:/advapimonitor/qm.py" />
+        <option value="D:/advapimonitor/Check.py" />
         <option value="$PROJECT_DIR$/生成图形验证码/简易验证码.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/headers.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/testcase/testcase001.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/GetABGroup.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/tools1.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/testcase/ReaderAdvList2.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/GetABGroupData.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/GetMysqlData.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/OperateDatabase.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/GetAPIData.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/tools.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/OperateAPI.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/testcase/InitAdv.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/test.py" />
-        <option value="$PROJECT_DIR$/../advapimonitor/testcase/ReaderAdvList4.py" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/testCase/test03case.py" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/result/baidu.log" />
+        <option value="D:/advapimonitor/headers.py" />
+        <option value="D:/advapimonitor/testcase/testcase001.py" />
+        <option value="D:/advapimonitor/GetABGroup.py" />
+        <option value="D:/advapimonitor/tools1.py" />
+        <option value="D:/advapimonitor/testcase/ReaderAdvList2.py" />
+        <option value="D:/advapimonitor/GetABGroupData.py" />
+        <option value="D:/advapimonitor/GetMysqlData.py" />
+        <option value="D:/advapimonitor/OperateDatabase.py" />
+        <option value="D:/advapimonitor/GetAPIData.py" />
+        <option value="D:/advapimonitor/tools.py" />
+        <option value="D:/advapimonitor/OperateAPI.py" />
+        <option value="D:/advapimonitor/testcase/InitAdv.py" />
+        <option value="D:/advapimonitor/test.py" />
+        <option value="D:/advapimonitor/testcase/ReaderAdvList4.py" />
+        <option value="D:/galinterface_adv/testCase/test03case.py" />
+        <option value="D:/galinterface_adv/result/baidu.log" />
         <option value="$PROJECT_DIR$/错误和日志/error+log.py" />
         <option value="$PROJECT_DIR$/错误和日志/loggingTest.log" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/common/configEmail.py" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/testtest.py" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/a/b.py" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/getpathInfo.py" />
+        <option value="D:/galinterface_adv/common/configEmail.py" />
+        <option value="D:/galinterface_adv/testtest.py" />
+        <option value="D:/galinterface_adv/a/b.py" />
+        <option value="D:/galinterface_adv/getpathInfo.py" />
         <option value="$PROJECT_DIR$/读ini配置/a.ini.py" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/readConfig.py" />
+        <option value="D:/galinterface_adv/readConfig.py" />
         <option value="$PROJECT_DIR$/读ini配置/a.ini" />
         <option value="$PROJECT_DIR$/读ini配置/readconfig.py" />
-        <option value="$PROJECT_DIR$/../galinterface_adv/readExcel.py" />
+        <option value="D:/galinterface_adv/readExcel.py" />
         <option value="$PROJECT_DIR$/高级函数/filter.py" />
         <option value="$PROJECT_DIR$/类/类的特殊方法.py" />
         <option value="$PROJECT_DIR$/类/类的实战/继承.py" />
@@ -192,10 +198,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-41" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="259" />
     <option name="y" value="-17" />
-    <option name="width" value="1364" />
+    <option name="width" value="1278" />
     <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -216,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,44 +233,33 @@
             <path>
               <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
               <item name="yufa" type="462c0819:PsiDirectoryNode" />
-              <item name="类" type="462c0819:PsiDirectoryNode" />
+              <item name="编程-flask" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
               <item name="yufa" type="462c0819:PsiDirectoryNode" />
-              <item name="类" type="462c0819:PsiDirectoryNode" />
-              <item name="类的实战" type="462c0819:PsiDirectoryNode" />
+              <item name="编程-socket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
               <item name="yufa" type="462c0819:PsiDirectoryNode" />
-              <item name="读ini配置" type="462c0819:PsiDirectoryNode" />
+              <item name="编程-socket" type="462c0819:PsiDirectoryNode" />
+              <item name="简单的" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
               <item name="yufa" type="462c0819:PsiDirectoryNode" />
-              <item name="邮件" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufa" type="462c0819:PsiDirectoryNode" />
-              <item name="错误和日志" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufa" type="462c0819:PsiDirectoryNode" />
-              <item name="高级函数" type="462c0819:PsiDirectoryNode" />
+              <item name="编程-wsgi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../galinterface_adv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -290,24 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.classmethod装饰器">
-    <configuration name="继承" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/类/类的实战" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/类/类的实战/继承.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.client">
     <configuration name="caseData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,54 +321,71 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/编程-socket/简单的" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="yufa" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/编程-socket/简单的/client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="flask接口" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../galinterface_adv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/编程-flask" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="galinterface" />
-      <option name="SCRIPT_NAME" value="D:\Pythoncodenoremote\yufa\flask接口.py" />
+      <module name="yufa" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/编程-flask/flask接口.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/编程-socket/简单的" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="yufa" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/编程-socket/简单的/server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test_api" />
-      <item index="1" class="java.lang.String" itemvalue="Python.classmethod装饰器" />
-      <item index="2" class="java.lang.String" itemvalue="Python.继承" />
-      <item index="3" class="java.lang.String" itemvalue="Python.caseData" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.classmethod装饰器" />
+      <item index="1" class="java.lang.String" itemvalue="Python.caseData" />
+      <item index="2" class="java.lang.String" itemvalue="Python.client" />
+      <item index="3" class="java.lang.String" itemvalue="Python.server" />
+      <item index="4" class="java.lang.String" itemvalue="Python.flask接口" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.classmethod装饰器" />
-        <item index="1" class="java.lang.String" itemvalue="Python.caseData" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.继承" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_api" />
+        <item index="0" class="java.lang.String" itemvalue="Python.client" />
+        <item index="1" class="java.lang.String" itemvalue="Python.server" />
+        <item index="2" class="java.lang.String" itemvalue="Python.flask接口" />
+        <item index="3" class="java.lang.String" itemvalue="Python.classmethod装饰器" />
+        <item index="4" class="java.lang.String" itemvalue="Python.caseData" />
       </list>
     </recent_temporary>
   </component>
@@ -585,37 +581,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20499243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1881663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23190789" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25653595" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="-1311" y="346" width="1322" height="225" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39802632" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30392158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25653595" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="-1311" y="346" width="1322" height="225" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1988273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25653595" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="-1311" y="346" width="1322" height="225" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -642,23 +628,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../advapimonitor/OperateAPI.py" />
-    <entry file="file://$PROJECT_DIR$/../advapimonitor/testcase/InitAdv.py" />
-    <entry file="file://$PROJECT_DIR$/../advapimonitor/GetAPIData.py" />
-    <entry file="file://$PROJECT_DIR$/../advapimonitor/testcase/ReaderAdvList2.py" />
-    <entry file="file://$PROJECT_DIR$/../advapimonitor/test.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/result/result.txt" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/result/report.html" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/result/logs" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/result/baidu.log" />
+    <entry file="file://D:/advapimonitor/test.py" />
+    <entry file="file://D:/galinterface_adv/result/result.txt" />
+    <entry file="file://D:/galinterface_adv/result/report.html" />
+    <entry file="file://D:/galinterface_adv/result/logs" />
+    <entry file="file://D:/galinterface_adv/result/baidu.log" />
     <entry file="file://$PROJECT_DIR$/错误和日志/error+log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <marker date="1615013532738" expanded="true" signature="726:756" ph="..." />
-            <marker date="1615013532738" expanded="true" signature="726:827" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,33 +644,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/testCase/test03case.py" />
-    <entry file="file://$PROJECT_DIR$/../advapimonitor/testcase/ReaderAdvList4.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/common/configDB.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/ceshi.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/a/b.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/common/log.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/caselist.txt" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/common/configEmail.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/common/configHttp.py" />
-    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/configparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3851">
-          <caret line="764" column="8" lean-forward="false" selection-start-line="764" selection-start-column="8" selection-end-line="764" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/getpathInfo.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/config.ini" />
+    <entry file="file://D:/galinterface_adv/testCase/test03case.py" />
+    <entry file="file://D:/advapimonitor/testcase/ReaderAdvList4.py" />
+    <entry file="file://D:/galinterface_adv/common/configDB.py" />
+    <entry file="file://D:/galinterface_adv/ceshi.py" />
+    <entry file="file://D:/galinterface_adv/a/b.py" />
+    <entry file="file://D:/galinterface_adv/common/log.py" />
+    <entry file="file://D:/galinterface_adv/caselist.txt" />
+    <entry file="file://D:/galinterface_adv/common/configEmail.py" />
+    <entry file="file://D:/galinterface_adv/common/configHttp.py" />
+    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/configparser.py" />
+    <entry file="file://D:/galinterface_adv/getpathInfo.py" />
+    <entry file="file://D:/galinterface_adv/config.ini" />
     <entry file="file://$PROJECT_DIR$/读ini配置/a.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,54 +670,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/geturlParams.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/loggingTest.log" />
-    <entry file="file://$PROJECT_DIR$/../advapimonitor/OperateExcel.py" />
-    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/site-packages/xlrd/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="534" column="17" lean-forward="false" selection-start-line="534" selection-start-column="17" selection-end-line="534" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/site-packages/xlrd/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="467" column="8" lean-forward="false" selection-start-line="467" selection-start-column="8" selection-end-line="467" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/test.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/runAll.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/readExcel.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/test.py" />
+    <entry file="file://D:/galinterface_adv/geturlParams.py" />
+    <entry file="file://D:/galinterface_adv/loggingTest.log" />
+    <entry file="file://D:/advapimonitor/OperateExcel.py" />
+    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/site-packages/xlrd/sheet.py" />
+    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/site-packages/xlrd/book.py" />
+    <entry file="file://D:/galinterface_adv/test.py" />
+    <entry file="file://D:/galinterface_adv/runAll.py" />
+    <entry file="file://D:/galinterface_adv/readExcel.py" />
+    <entry file="file://D:/galinterface_adv/test.py" />
     <entry file="file://$PROJECT_DIR$/flask接口.py" />
-    <entry file="file://$PROJECT_DIR$/../galinterface_adv/readConfig.py" />
+    <entry file="file://D:/galinterface_adv/readConfig.py" />
     <entry file="file://$PROJECT_DIR$/高级函数/filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="84">
           <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41228">
-          <caret line="1876" column="4" lean-forward="false" selection-start-line="1876" selection-start-column="4" selection-end-line="1876" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Program Files (x86)/Python36-32/Lib/logging/__init__.py" />
     <entry file="file://$PROJECT_DIR$/邮件/html邮件.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,15 +710,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/类/将方法变成属性.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="147">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -779,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,29 +731,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/类/类的实战/继承.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-297851564/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="3697" column="45" lean-forward="false" selection-start-line="3697" selection-start-column="45" selection-end-line="3697" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-297851564/builtins.py" />
     <entry file="file://$PROJECT_DIR$/类/类的实战/caseParam.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="34" />
           <folding />
         </state>
@@ -817,8 +753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/类/类的实战/caseData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -827,24 +763,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/类/类的特殊方法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/类/classmethod装饰器.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程-flask/flsk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程-flask/flask接口.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程-socket/简单的/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程-socket/简单的/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
