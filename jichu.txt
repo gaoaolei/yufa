@@ -1,0 +1,122 @@
+一、很多函数的参数都写的是Interable，那什么是Interable呢？
+列表生成式List Comprehensions   [x*x for x in range(10)]
+生成器generator                 (x*x for x in range(10))
+可以for的                  ==  Iterable可迭代对象   有str，list，tuple，set，dict，generator，带yield的函数
+可以next的（当然也可以for）  ==  Iterator迭代器      有generator，带yield的函数
+判断是否可迭代（遍历）
+from collections.abc import Iterable
+print(isinstance('aaa',Iterable))
+
+二、int数字的进制表示及转化
+65         十进制
+0b01000001 二进制
+0o101      八进制
+ox41       十六进制
+其他转十进制
+int(65)=int(0b01000001)=int(0o101)=int(0x41)=65  其实这没有什么意义，print(0x41)就是65，没必要int，这里只是讲解
+
+十进制转其他（结果是str，不知道python为什么要这么设计，坑的很）
+bin(65)= '0b01000001'
+oct(65)= '0o101'
+hex(65)= '0x41'
+二、八、十六之间不能直接转
+hex(int(0o101))='0x41'
+
+三、数字与str转换
+str(65)='65'
+int('65')=int('65',base=10)=int('0b01000001',base=2)=int('0o101',base=8)=int('0x41',base=16)=65  base就是告诉int函数被转对象
+是什么进制的，否则带字母b,o,x无法转，但是为啥python不能搞成自动识别呢
+
+四、编码
+ascii不够用，但是汉字，韩语，日语等没法表示，各个国家自己造，于是有了gbk2312，shift-jis，eur-kr等，为了交流统一成unicode（补0），
+但纯英文又太浪费空间，于是又有了utf8      内存中是Unicode，硬盘和传输中是utf8
+ascii  127个
+unicode  一个字符（不论英文还是汉字）占两个字节，非常生僻的4个字节，英文字母前补0，会导致纯英文内容占用空间大一倍造成浪费
+utf8 可变长，1-6个字节  英文字母被编码成1个字节，汉字通常是3个字节，只有很生僻的字符才会被编码成4-6个字节
+python的str在内存中以unicode表示，如果传输或者存盘，就用字节byte的形式表示即utf8
+eg: '中'  '中'=='\u4e2d'
+unicode格式：'\u4e2d'        str类型     占2bytes    可以看到两个字节一个单元，\u开头
+utf8格式： b'\xe4\xb8\xad'   bytes类型   占3bytes    可以看到一个字节一个单元  b开头表示bytes类型，内容\x开头
+存到硬盘：'\u4e2d'.encode('utf8')=b'\xe4\xb8\xad'
+读到内存：b'\xe4\xb8\xad'.decode('utf8')='\u4e2d'
+单字符：
+    获取字符的整数表示   ord("A")=65
+    获取编码对应的字符   chr(65)='A'
+
+五、不同类型文件的读取
+见xmind
+
+六、bytes()
+bytes("中",encoding='utf8') = b'\xe4\xb8\xad\xe6\x96\x87'    同encode
+
+七、bultins
+abs():                              绝对值
+all(iterable):                      所有为true则返true
+ascii():                            ascii('runoob')= "'runoob'"
+any(iterable):                      所有为false则返false
+bin():                              bin(65)='0b01000001'
+callable():                         检查一个对象是否可被调用
+chr():                              chr(65)='A'
+compile():                          将一个字符串编译为字节代码,可以执行代码
+copyright():
+credits():
+delattr(x, y):                      删除属性
+dir(p_object=None):                 dir()返回当前模块的属性列表；dir(str)返回str的所有方法列表， 很有用处
+divmod(x, y):                       divmod(a,b)=(a//b,a%b)  返回tuple，商和余数
+eval():                             执行一个"字符串"表达式，并返回表达式的值  eval('1+2')=3  eval('123')=123   eval("'12'+'3'")='123'   去掉引号
+exec():                             exec 执行储存在字符串或文件中的 Python 语句，相比于 eval，exec可以执行更复杂的 Python 代码  exec("print('aaa')")
+exit():                             退出程序
+format():                           格式化 "网站名：{name}, 地址 {url}".format(name="菜鸟教程", url="www.runoob.com")
+getattr(）
+globals():                          以字典类型返回当前位置的全部全局变量
+hasattr():
+hash():                             返回hash值，每次都是变化的
+help():
+hex():                              hex(65)='0x41'
+id():
+input():
+isinstance(x, A_tuple):
+issubclass(x, A_tuple):
+iter(source, sentinel=None):
+len():
+license():
+locals():                           以字典类型返回当前位置的全部局部变量
+max(*args, key=None):               max(1,2,3)=3  max(2+2,3)=4  max([1,2,3])=3
+min(*args, key=None):               max(1,2,3)=1  max(2+2,3)=3  max([1,2,3])=1
+next(iterator, default=None):       从迭代器中获取值，for循环的底层实现
+oct():                              oct(65) = '0o101'
+open(file, mode='r', buffering=None, encoding=None,...):
+ord():                              ord('A')=65  返回字符的整数表示
+pow():                              pow(2,3)=8
+print(self, *args, sep=' ', end='\n', file=None):
+quit():
+repr(obj):                          将对象转化为供解释器读取的形式,返回一个对象的 string 格式   repr([1,2,3])="[1,2,3]"  加层引号
+round(number, ndigits=None):        round(11.56)=12  round(11.56,1)=11.6
+setattr(x, y, v):
+sorted(Iterable):                   sorted([1,3,2])=[1,2,3]  区别于[3,4,2,1].sotr()
+sum(iterable[, x]):                 sum([1,2,3],4)=10
+vars(p_object=None):                返回对象object的属性和属性值的字典对象
+
+class int(object):
+class bool(object):
+class bytearray(object):
+class bytes(object):
+class complex(object):
+class dict(object):
+class enumerate(object):
+class filter(object):
+class float(object):
+class frozenset(object):
+class list(object):
+class map(object):
+class range(object):
+class reversed(object):
+class set(object):
+class slice(object):
+class str(object):
+class super(object):
+class tuple(object):
+class type(object):
+class zip(object):
+
+
