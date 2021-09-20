@@ -82,5 +82,3 @@ if __name__ == '__main__':
 
     for i, j in zip(a, range(len(a))):
         ins.run(i,j)
-
-"""以联想电脑的galintercace_adv为基础，讲解如何实现用例的并发执行"""
