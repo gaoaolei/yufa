@@ -13,6 +13,7 @@ print(isinstance('aaa',Iterable))
 0o101      八进制
 ox41       十六进制
 其他转十进制
+65=0b01000001=0o101=0x41
 int(65)=int(0b01000001)=int(0o101)=int(0x41)=65  其实这没有什么意义，print(0x41)就是65，没必要int，这里只是讲解
 
 十进制转其他（结果是str，不知道python为什么要这么设计，坑的很）
@@ -34,7 +35,7 @@ ascii  127个
 unicode  一个字符（不论英文还是汉字）占两个字节，非常生僻的4个字节，英文字母前补0，会导致纯英文内容占用空间大一倍造成浪费
 utf8 可变长，1-6个字节  英文字母被编码成1个字节，汉字通常是3个字节，只有很生僻的字符才会被编码成4-6个字节
 python的str在内存中以unicode表示，如果传输或者存盘，就用字节byte的形式表示即utf8
-eg: '中'  '中'=='\u4e2d'
+eg: '中'=='\u4e2d' 字符中的unicode编码
 unicode格式：'\u4e2d'        str类型     占2bytes    可以看到两个字节一个单元，\u开头
 utf8格式： b'\xe4\xb8\xad'   bytes类型   占3bytes    可以看到一个字节一个单元  b开头表示bytes类型，内容\x开头
 存到硬盘：'\u4e2d'.encode('utf8')=b'\xe4\xb8\xad'
@@ -75,8 +76,8 @@ help():
 hex():                              hex(65)='0x41'
 id():
 input():
-isinstance(x, A_tuple):
-issubclass(x, A_tuple):
+isinstance(x, A_tuple):             isinstance("fu","zi")
+issubclass(x, A_tuple):             issubclass("fu","zi")
 iter(source, sentinel=None):
 len():
 license():
@@ -97,26 +98,45 @@ sorted(Iterable):                   sorted([1,3,2])=[1,2,3]  区别于[3,4,2,1].
 sum(iterable[, x]):                 sum([1,2,3],4)=10
 vars(p_object=None):                返回对象object的属性和属性值的字典对象
 
-class int(object):
-class bool(object):
+class int(object):                  int("123")=123  int('0b01000001',base=2)=65
+class bool(object):                 bool(1)=True
 class bytearray(object):
-class bytes(object):
-class complex(object):
+class bytes(object):                比较复杂
+class complex(object):              复数 complex(1,2)=1+2j
 class dict(object):
-class enumerate(object):
-class filter(object):
-class float(object):
+class enumerate(object):            list(enumerate(a,b,c),3) = [(3,a),(4,b),(5,c)]
+class filter(object):               def f(x):return x%2==0  filter(f,[1,2,3,4,5,6])=迭代器(2,4,6)
+class float(object):                float(12)=12.0
 class frozenset(object):
 class list(object):
-class map(object):
+class map(object):                  映射 def f(x):return x*x  map(f,[1,2,3])=迭代器(1,4,9)
 class range(object):
-class reversed(object):
+class reversed(object):             reversed([1,2,3])=迭代器(3,2,1)
 class set(object):
-class slice(object):
-class str(object):
-class super(object):
+class slice(object):                切片的底层实现
+class str(object):                  str(123)='123'
+class super(object):                super().父类的方法，子类中继承父类的方法时使用
 class tuple(object):
 class type(object):
-class zip(object):
+class zip(object):                  a=[1,2,3] b=[4,5,6] c=list(zip(a,b))=[(1,4),(2,5),(3,6)]  zip(*c)=(1,2,3) (4,5,6)
 
+八、__all__
+仅在from x import *时以下成立(必须是*)
+模块（py文件），py文件中写__all__=['xx']，表示该文件只有xx可以被其他文件导入
+包（package）的init文件中写__all__=['xx']，表示该包中的xx模块可以被其他文件导入
 
+九、查看代码执行速度
+timeit.timeit("xx")或者timeit.Timer("xx").timeit()
+
+十、requests库和urllib库的区别
+requests库是对urllib库的进一步封装，所以用requests，不要管urllib
+
+十一、将url中的参数转成字典
+import urllib.parse
+url= "https://www.baicu.com?name=gaooalei&password=1234"
+print(dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(url).query)))
+结果：{'name': 'gaooalei', 'password': '1234'}
+
+十二、如何从suite中取出case？
+for test in suite:
+    print test._tests

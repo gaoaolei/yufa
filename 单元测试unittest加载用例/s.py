@@ -1,6 +1,9 @@
-import para
-import test
 import unittest
+
+import para
+
+from 多线程 import test
+
 #方式一
 suite = unittest.TestSuite()
 suite.addTest(para.testMethod('test001'))

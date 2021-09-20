@@ -1,12 +1,75 @@
-error+log.py [2020-04-12 14:40:45] [DEBUG] aaaaaaaaa
-error+log.py [2020-04-12 14:40:45] [INFO] xiaodeng
-error+log.py [2020-04-12 14:40:45] [WARNING] python
-error+log.py [2020-04-12 14:40:45] [ERROR] division by zero
-Traceback (most recent call last):
-  File "D:/Pythoncodenoremote/yufa/错误和日志/error+log.py", line 27, in main
-    bar('0')
-  File "D:/Pythoncodenoremote/yufa/错误和日志/error+log.py", line 22, in bar
-    return foo(s) * 2
-  File "D:/Pythoncodenoremote/yufa/错误和日志/error+log.py", line 19, in foo
-    return 10 / int(s)
-ZeroDivisionError: division by zero
+ascii
+all
+abs
+any
+bin
+callable
+chr
+compile
+copyright
+credits
+delattr
+dir
+divmod
+eval
+exec
+format
+getattr
+globals
+hasattr
+hex
+hash
+help
+id
+input
+inter
+isinstance
+issubclass
+len
+license
+locals
+max
+min
+next
+oct
+open
+ord
+pow
+print
+quit
+repr
+round
+setattr
+sorted
+sum
+vars
+
+int
+list
+str
+bool
+bytes
+bytearray
+dict
+tuple
+set
+float
+complex
+enumerate
+filter
+map
+range
+reversed
+type
+super
+slice
+zip
+frozenset
+
+math.floor
+math.ceil
+math.e
+math.pi
+math.hypot
+math.rount
+math.
