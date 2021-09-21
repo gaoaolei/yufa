@@ -53,7 +53,10 @@ print(s.cookies == r.cookies)
 print(requests.utils.dict_from_cookiejar(s.cookies))
 # 往cookie中加字段
 print(requests.utils.add_dict_to_cookiejar(s.cookies,{"GAO":"thisismycookie"}))
-print("-----------------------------",s.cookies)
+# 或者
+coo=requests.cookies.RequestsCookieJar()
+coo.set("SyntaxHighlighter","python")
+s.cookies.update(coo)
 # 字典转成cookiejar
 dict = {"A":"nihao","B":"gaoaolei"}
 a = requests.utils.cookiejar_from_dict(dict)

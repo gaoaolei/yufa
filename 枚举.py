@@ -1,12 +1,12 @@
 from enum import Enum
 a = Enum('Month', ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'))
-
+print(a)
 print(a['Jan'])                #通过name获取member
 print(a.Jan.name)              #通过属性name获取name
 print(a.Jan.value)             #通过属性value获取value
-
-
-
+print(list(a))
+for i in a:
+    print(i)
 
 
 
@@ -30,8 +30,8 @@ class Color(Enum):
     indigo = 6
     purple = 7
 复制代码
-　　代码分析：                    ******   成员      = 名称 + 值    *****************************************
-                                  ******   Color.red = red  + 1     *****************************************
+代码分析：                    ******   成员      = 名称 + 值    *****************************************
+                            ******   Color.red = red  + 1     *****************************************
 
 上面的代码，我们定义了颜色的枚举Color.
 颜色枚举有7个成员，分别是Color.red、Color.orange、Color.yellow等。

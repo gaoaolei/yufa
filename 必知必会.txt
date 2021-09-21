@@ -140,3 +140,10 @@ print(dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(url).query)))
 十二、如何从suite中取出case？
 for test in suite:
     print test._tests
+
+十三、read的区别
+read  读取所有
+readline   读取一行
+readelines   读取所有按行放入list
+如何去掉最后的回车符
+s.rstrip('\n')
