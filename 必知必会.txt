@@ -120,10 +120,7 @@ class tuple(object):
 class type(object):
 class zip(object):                  a=[1,2,3] b=[4,5,6] c=list(zip(a,b))=[(1,4),(2,5),(3,6)]  zip(*c)=(1,2,3) (4,5,6)
 
-八、__all__
-仅在from x import *时以下成立(必须是*)
-模块（py文件），py文件中写__all__=['xx']，表示该文件只有xx可以被其他文件导入
-包（package）的init文件中写__all__=['xx']，表示该包中的xx模块可以被其他文件导入
+八、pass
 
 九、查看代码执行速度
 timeit.timeit("xx")或者timeit.Timer("xx").timeit()
@@ -147,3 +144,264 @@ readline   读取一行
 readelines   读取所有按行放入list
 如何去掉最后的回车符
 s.rstrip('\n')
+
+十四、
+新式类和经典类
+一、
+在Python 3.x中取消了经典类，默认都是新式类，并且不必显式的继承object，也就是说：
+class Person(object):pass
+class Person():pass
+class Person:pass
+三种写法并无区别，推荐第一种
+
+但是在Python2.x中，默认都是经典类，只有显式继承了object才是新式类，即：
+class Person(object):pass 新式类写法
+class Person():pass 经典类写法
+class Person:pass 经典类写法
+
+二、
+区别：新式类广度优先，有__slots__和__getattribute__方法
+
+三、
+super执行时必须为新式类
+经典类用类名
+class A:
+    def __init__(self):
+        pass
+class B(A):
+    def __init__(self):        
+        A.__init__(self)
+      
+新式类用super
+class A(object):
+    def __init__(self):
+        pass
+class B(A):
+    def __init__(self):
+        super(B, self).__init__()
+
+super()
+#!/usr/bin/python3
+# encoding=utf8
+class a:
+    name=9
+    def __init__(self,name):
+        self.name=name
+class b(a):
+    def __init__(self,name,age):
+# 三种写法
+        # super().__init__(name)   # python3的写法
+        # super(a,self).__init__()  # python2的写法
+        a.__init__(self,name)      # 经典写法
+        self.age=age
+h=b('gaoalei',10)
+res=h.age
+print(res)
+
+class a:
+    name=9
+    def func(self):
+        print('fu')
+class b(a):
+    def func(self):
+        super().func()
+        print('son')
+print(b().func())
+类的专有方法：
+__init__ : 构造函数，在生成对象时调用
+__del__ : 析构函数，释放对象时使用
+__repr__ : 打印，转换
+__setitem__ : 按照索引赋值
+__getitem__: 按照索引获取值
+__len__: 获得长度
+__cmp__: 比较运算
+__call__: 函数调用
+__add__: 加运算
+__sub__: 减运算
+__mul__: 乘运算
+__div__: 除运算
+__mod__: 求余运算
+__pow__: 乘方
+
+静态方法和类方法
+实例方法：在类中，定义的方法，这个方法的第一个参数默认是实例对象，一般习惯使用self
+类方法：在类中，定义的方法，这个方法的第一个参数默认是类对象，一般习惯用cls表示，用@classmethod装饰器装饰
+静态方法：在类中定义的方法，这个方法的参数没有要求，用@staticmethod装饰器装饰
+实例方法只能被实例（对象）调用
+类方法和静态方法可以被类或者实例调用
+
+
+class Foo(object):
+
+    # 实例方法,第一个参数必须是实例对象。一般习惯用self。
+    def instance_method(self):
+        print("是类{}的实例方法，只能被实例对象调用".format(Foo))
+
+    # 类方法， 第一个参数必须是类 对象。一般习惯使用cls。使用@classmethod装饰器装饰。
+    @classmethod
+    def class_method(cls):
+        print("是类方法")
+
+    # 静态方法，参数没有要求，和类没有绑定关系，就是一个普通的方法            使用@staticmethod装饰器装饰。
+    @staticmethod
+    def static_method():
+        print("是静态方法")
+
+
+foo = Foo()
+
+# 实例方法只能被实例调用。
+foo.instance_method()
+
+print('----------')
+
+# 类方法可以被类或者实例调用。
+Foo.class_method()
+foo.class_method()
+
+print('----------')
+
+# 静态方法可以被类或者实例调用。
+Foo.static_method()
+foo.static_method()
+      
+
+十五、pip
+pip install xxx
+包解压的目录下直接：pip setup.py install
+执行
+python  xxx.py
+py -2  xxx.py
+py -3 xxx.py
+同时安装py2和py3
+分别安装完py2和py3，设置好环境变量
+在运行时，只需要在命令行输入 py -2 XXXXX.py   或  py -3 XXXXX.py即可以指定运行的python版本
+pip的安装和使用
+网上下载一个“get-pip.py”的python文件
+然后分别用py -2 和py -3运行，即可以分别在两个版本的python中安装好pip
+当Python2和Python3同时存在于windows上时，它们对应的pip都叫pip.exe，所以不能够直接使用 pip install 命令来安装软件包。而是要使用启动器py.exe来指定pip的版本。命令如下：
+py -2 -m pip install XXXX
+-2 还是表示使用 Python2，-m pip 表示运行 pip 模块，也就是运行pip命令了。如果是为Python3安装软件，那么命令类似的变成
+py -3 -m pip install XXXX
+
+https://www.jianshu.com/p/a5e98489dcb8
+
+十六、倒序
+a = 'asdfg'
+方法1：
+"".join(reversed(list(a)))
+或者 b= list(a)
+b.reverse()
+"".join(b)
+方法2：
+s=''
+for i in a:
+s = i+s
+方法3：
+a[::-1]
+方法4：
+def func(x):
+if len(x)<=1:
+return x
+return func(x[1:]) + x[0]
+方法5：
+a = [1, 2, 4, 6, 8]
+lenth = len(a)
+for i in range(len(a)//2):
+   a[i], a[lenth-1-i] = a[lenth-1-i], a[i]
+
+十七、特殊变量
+1.特殊变量,可通过dir()获取
+__name__    值为__main__
+
+__slots__   =(,) 限定类中的方法
+
+__author__  作者
+
+__file__   返回文件路径， 通过调用 __file__ 属性输出的绝对路径，我们可以很轻易地找到该模块（或包）的源文件。
+print(__file__)    返回当前文件的路径
+import requests;print(request.__file__)    返回requests库的路径  D:\Program Files (x86)\Python36-32\lib\site-packages\requests\__init__.py
+
+__all__  仅在from x import *时以下成立(必须是*)
+模块（py文件），py文件中写__all__=['xx']，表示该文件只有xx可以被其他文件导入
+包（package）的init文件中写__all__=['xx']，表示该包中的xx模块可以被其他文件导入
+
+2.私有变量
+__a  不可访问
+_a  可以访问，但不要随意访问
+
+3.特殊方法
+__init__    初始化方法,实例化时自动执行
+__repr__     print时触发
+__format__
+__bytes__
+__abs__        abs时触发
+__bool__
+__complex__
+__int__
+__float__
+__hash__
+__index__
+__len__         len触发
+__getitem__
+__setitem__
+__delitem
+__contains__
+__iter__
+__reversed__
+__next__
+__call__        类调用时触发
+__enter__
+__exit__
+__new_
+__del__
+__getattr__
+__setattr__
+__getattribute__
+__delattr__
+__dir__
+__get__
+__set__
+__delete__
+__eq__      =触发
+__lt__      <触发
+__le__      <=
+__gt__      >
+__ge__      >=
+__ne__      !=
+__add__     +
+__sub__     -
+__mul__     *
+__truediv__     /
+__floordiv__    //
+__mod__         %
+__divmod__      divmod
+__pow__         **或pow
+__round__       round
+
+
+
+十八、sort排序：
+sort()   List类的方法  a=[4,3,2,1]  a.sort()  print(a)    注意返回的是None
+data.sort(key=lambda element: (-element['price_type'], json.loads(element['json_data'])['sort']))     -号表示倒序
+sorted(data)  内建方法
+
+
+十九、fiddler代理报错处理：
+def get(self, redis):
+    requests.packages.urllib3.disable_warnings()
+    return requests.get(self.url + redis, verify=False)
+
+二十、屏蔽ResourceWarning
+warnings.simplefilter("ignore", ResourceWarning)
+深浅拷贝
+1.赋值（引用）：是一个东西
+list1=list  dict1=dict
+2.浅拷贝：不是一个对象，但是里面的子对象还是一个
+（1）list1=list.copy()
+（2）extend方法  a = [1,2,3] b=[]  b.extend(a);  dict用update方法，略
+3.深拷贝：完全独立两个对象，子对象也是两个
+list1=list.deepcopy()
+
+
+

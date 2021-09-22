@@ -1,0 +1,75 @@
+一、unittest的运行方式
+pycharm在遇到带test的文件名或者函数的时候，会自动进入nosetest模式，如果我们做unittest测试时，如何将nosetest切换成unittest呢？
+答：settings---tool---python intergate tools---将default test runner切换下就行了，坑了我好久
+
+二、unittest的n种加载用例的方式：
+https://blog.csdn.net/fengguangke/article/details/81709215
+
+1. 通过unittest.TestSuite()类直接构建，或者通过TestSuite实例的addTests、addTest方法构建
+2. 通过unittest.TestLoader类的discover、loadTestsFromTestCase、loadTestsFromModule、loadTestsFromName、loadTestsFromNames这五个方法去构建
+3. 通过unittest.makeSuite()、unittest.findTestCases()这两个方法去构建
+补充：多个testsuite怎么合并？
+suite1 = unittest.TestLoader().loadTestsFromTestCase(para.testMethod)
+suite2 = unittest.TestLoader().loadTestsFromTestCase(test.Test)
+suite = unittest.TestSuite([suite1, suite2])
+4. 具体实例看test.py文件
+
+*************************************参数化（传递参数）：*************************************
+python自动化测试方案常搭配unittest使用，而unittest的思路是一个def方法就是一条用例，并不鼓励传递参数，这对于循环处理数据这种场景并不友好，因此，如果需要在测试类中使用业务参数，可采用以下方法。
+
+一、重新构造unittest.TestCase类的主函数
+
+import unittest
+class TestReport(unittest.TestCase):                                          #创建测试类，unittest.TestCase运行时，默认运行该类下所有的def方法，一个def视作一条用例
+    def __init__(self, testMehtodName, param):                           #业务处理上需要传递一个参数param进来
+        super(TestReport,self).__init__(testMehodName)                #重新构造unittest.TestCase类的主函数，由于重写了__init__方法，需要传递用例的方法名称让unittest.TestCase类知道现在运行的是哪条def用例
+        self. param =param                                                                #将业务参数param赋值给TestReport类，就可以在case1，case2中使用了
+
+    def  case1(self):
+
+          用例1
+
+    def case2(self):
+
+          用例2
+
+testloader = unittest.TestLoader()
+testMehodNames=testloader.getTestCaseNames(TestReport)            # 获取测试类的所有def方法，传递到测试类中
+testSuite = unittest.TestSuite()
+for testMethodName in testMethodNames:
+     testcase = TestReport(testMethodName, param)
+testSuite.addTest(testcase)
+
+二、使用ddt
+
+import ddt
+import unittest
+
+@ddt.ddt
+class TestCase(unittest.TestCase):
+      def setUp(self):
+          print("Before every test case!")
+
+    @ddt.data(1, 2, 3, 4, 5, 6)
+    def test_case_01(self, value):
+        print("value is: " + str(value))
+
+
+三、使用paramunittest
+
+import unittest
+import paramunittest
+
+@paramunittest.parametrized((1, 2), (3, 4), (5, 6))
+class TestBookDownload(unittest.TestCase):
+    def setParameters(self, x, y):
+        self.x = x
+        self.y = y
+
+    def test_null_id(self):
+        print(self.x)
+
+if __name__ == '__main__':
+    unittest.main()
+
+*************************************参数化（传递参数）：*************************************

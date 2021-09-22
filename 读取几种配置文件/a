@@ -1,0 +1,51 @@
+为什么有这么多类型的格式？
+因为yaml和ini书写起来更方便
+
+一、yaml
+1.认识yaml
+
+（1）字典
+server:
+  host: 192.168.123.124
+  port: 8000
+解析后：  {'server': {'host': '192.168.123.124', 'port': 8000}}
+（2）list
+apk_name_list:
+  - com.kmxs.reader
+  - com.qm.game
+解析后：{'apk_name_list': ['com.kmxs.reader', 'com.qm.game']}
+
+2.解析方法：
+import yaml
+with open('gaoaolei.yaml', 'r', encoding='utf-8') as f:
+    res = yaml.load(f, Loader=yaml.FullLoader)
+二、json
+直接josn.load(filename)  注意：这里是load而非loads
+load是解析流，loads是解析sting
+
+三、ini
+[adv-redis]
+host = r-uf6nhnheioue6q7vhspd.redis.rds.aliyuncs.com
+port = 6379
+password = pAjb8N7Y2Xpv2gH3m3H
+max_connections = 1024
+解析方法1：
+from configparser import RawConfigParser
+class HandleConfig(RawConfigParser):
+    """配置文件解析器类的封装"""
+    def __init__(self, filename):
+        super().__init__()
+        self.read(filename, encoding='utf-8')
+conf = HandleConfig(os.path.join(CONF_DIR, 'config.ini'))
+res = conf.get('adv-redis', 'port'))
+解析方法2：
+import configparser
+conf = configparser.ConfigParser()   或者RawConfigParser()
+conf.read(filename, encoding='utf8')
+res = config.get('adv-redis', 'port')
+
+四、xml
+略
+
+五、proto
+略
