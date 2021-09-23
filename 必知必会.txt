@@ -207,21 +207,6 @@ class b(a):
         super().func()
         print('son')
 print(b().func())
-类的专有方法：
-__init__ : 构造函数，在生成对象时调用
-__del__ : 析构函数，释放对象时使用
-__repr__ : 打印，转换
-__setitem__ : 按照索引赋值
-__getitem__: 按照索引获取值
-__len__: 获得长度
-__cmp__: 比较运算
-__call__: 函数调用
-__add__: 加运算
-__sub__: 减运算
-__mul__: 乘运算
-__div__: 除运算
-__mod__: 求余运算
-__pow__: 乘方
 
 静态方法和类方法
 实例方法：在类中，定义的方法，这个方法的第一个参数默认是实例对象，一般习惯使用self
@@ -314,6 +299,8 @@ for i in range(len(a)//2):
 1.特殊变量,可通过dir()获取
 __name__    值为__main__
 
+__class__   print("ads".__class__) 结果：<class 'str'>    print(A().__class__) 结果为<class '__main__.A'>
+
 __slots__   =(,) 限定类中的方法
 
 __author__  作者
@@ -380,7 +367,6 @@ __pow__         **或pow
 __round__       round
 
 
-
 十八、sort排序：
 sort()   List类的方法  a=[4,3,2,1]  a.sort()  print(a)    注意返回的是None
 data.sort(key=lambda element: (-element['price_type'], json.loads(element['json_data'])['sort']))     -号表示倒序
@@ -394,7 +380,8 @@ def get(self, redis):
 
 二十、屏蔽ResourceWarning
 warnings.simplefilter("ignore", ResourceWarning)
-深浅拷贝
+
+二十一、深浅拷贝
 1.赋值（引用）：是一个东西
 list1=list  dict1=dict
 2.浅拷贝：不是一个对象，但是里面的子对象还是一个
@@ -403,5 +390,10 @@ list1=list  dict1=dict
 3.深拷贝：完全独立两个对象，子对象也是两个
 list1=list.deepcopy()
 
-
-
+二十二、pip freeze>requirements.txt  生成requirements.txt
+安装：pip install （-i https://pypi.doubanio.com/simple/） -r requirements.txt
+常用镜像源：
+阿里 https://mirrors.aliyun.com/pypi/simple
+清华 https://pypi.tuna.tsinghua.edu.cn/simple
+中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple
+替代品 pipfile  https://zhuanlan.zhihu.com/p/118556315

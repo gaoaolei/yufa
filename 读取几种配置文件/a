@@ -45,7 +45,20 @@ conf.read(filename, encoding='utf8')
 res = config.get('adv-redis', 'port')
 
 四、xml
-略
+<?xml version="1.0" encoding="UTF-8"?>
+<version>
+    <test name="七猫免费小说_" status="true"  excelName="FreeReader_Android_v1.0.xlsx"/>
+</version>
+
+import xml.etree.ElementTree as ET
+def getRunExcelDit(configName):
+    runExcelDit = {}
+    tree = ET.parse(getBasePath() + '/case/config/' + configName + '.xml')
+    root = tree.getroot()
+    for child in root:
+        if child.attrib['status'] == 'true':
+            runExcelDit[child.attrib['name']] = child.attrib['excelName']
+    return runExcelDit
 
 五、proto
 略
