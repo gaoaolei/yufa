@@ -1,7 +1,5 @@
-class A():
-    def __init__(self):
-        pass
-b=A()
-print(b.__class__)
+def a():
+    pass
 
-print("ads".__class__)
+print(dir(a()))
+print(callable(a()))
