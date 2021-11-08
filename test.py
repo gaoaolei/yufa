@@ -76,3 +76,4 @@ if __name__ == '__main__':
 
     for i, j in zip(a, range(len(a))):
         ins.run(i,j)
+#   asdf
