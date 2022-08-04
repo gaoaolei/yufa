@@ -1,5 +1,6 @@
-import time
-print(time.time())
-print('gaoaoaoao')
-print('gggggggg')
-print('iiiiiii')
+
+class Student():
+    def __init__(self):
+        pass
+
+# print(__name__)

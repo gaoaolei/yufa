@@ -33,7 +33,7 @@ def addd3(*args,**kw):
     for i in args:
         a = a + i
     return a
-print(addd3(1,2,3)(100))
+print(addd3(1,2,3)())
 @log1
 def addd4(a,b):
     return a+b

@@ -4,6 +4,7 @@ import sys
 import traceback
 import csv, os, time, math
 
+
 class MonitoringData(QtWidgets.QMainWindow):
     def __init__(self, pkg, device_name):
         super().__init__()
@@ -24,7 +25,7 @@ class MonitoringData(QtWidgets.QMainWindow):
         self.setWindowTitle("App性能数据显示")
         self.App_monitoring_data = QtWidgets.QWidget()  # 创建一个主部件
         self.setCentralWidget(self.App_monitoring_data)  # 设置窗口默认部件
-        self.resize(800, 800)  # 设置窗口大小
+        self.resize(1200, 900)  # 设置窗口大小
         # 创建cpu监控图像
         self.cpu_image = QtWidgets.QGridLayout()  # 创建cpu网格布局
         self.App_monitoring_data.setLayout(self.cpu_image)  # 设置cpu的主部件为网格
@@ -34,7 +35,7 @@ class MonitoringData(QtWidgets.QMainWindow):
         self.cpu_plot_plt = pg.PlotWidget(title='CPU', left='CPU(%)')  # cpu的绘图部件
         self.cpu_plot_plt.showGrid(x=True, y=True)  # 显示cpu图形
         self.plot_layout.addWidget(self.cpu_plot_plt)  # 添加绘图部件到K线图部件的网格布局层
-        self.cpu_image.addWidget(self.cpu_plot_widget, 2, 0, 3, 3)  # 将上述部件添加到布局层中
+        self.cpu_image.addWidget(self.cpu_plot_widget, 1, 0, 3, 3)  # 将上述部件添加到布局层中
         self.cpu_plot_plt.setYRange(max=120, min=0)  # 设置cpu的纵坐标范围
         # 创建Memory监控图像
         self.mem_image = QtWidgets.QGridLayout()  # 创建memory网格布局
@@ -76,8 +77,11 @@ class MonitoringData(QtWidgets.QMainWindow):
         """获取cpu数据"""
         try:
             result = os.popen("adb -s {} shell dumpsys cpuinfo | findstr {}".format(self.device_name, self.pkg))
+            print('-------')
+            print(result)
             # result = os.popen("adb -s {} shell top -m 100 -n 1 -d 1 | findstr {}".format(self.device_name, self.pkg))  # 执行adb命令
             res = result.readline().split(" ")  # 将获取的行数据使用空格进行分割
+            print(res)
             if res == ['']:  # 处理没有数据的情况
                 print('no data')
                 pass
@@ -91,7 +95,7 @@ class MonitoringData(QtWidgets.QMainWindow):
                     cpu = float(cpuvalue)
                     print("CPU:", cpu)
                     # self.save_data('cpu', [(current_time, cpuvalue)])  # 将数据保存到Excel
-                    self.data_list.append(cpu)   # 将数据写入列表
+                    self.data_list.append(cpu)  # 将数据写入列表
                     self.cpu_plot_plt.plot().setData(self.data_list, pen='g')  # 将数据载入图像中
         except Exception as e:
             print(traceback.print_exc())
@@ -103,8 +107,10 @@ class MonitoringData(QtWidgets.QMainWindow):
             res = result.readlines()
             for line in res:
                 if "TOTAL:" in line:  # 不同手机adb shell dumpsys meminfo packagename 获取的Pss Total 不同，有的手机是TOTAL:，有的是TOTAL PSS:，这里做了一下兼容
+                    print(line)
                     pss_total1 = line.split(" ")[18]  # 将获取的行数据使用空格进行分割并取出第 18个元素
                 elif 'TOTAL PSS:' in line:
+                    print(line)
                     pss_total1 = line.split(" ")[15]  # 将获取的行数据使用空格进行分割并取出第 15个元素
                 else:
                     continue
@@ -181,8 +187,10 @@ class MonitoringData(QtWidgets.QMainWindow):
         # else:
         #     print('data_type error!')
 
+
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
-    data = MonitoringData('com.kmxs.reader', 'TGTKLV9LSC9TWCEQ')  # 请修改包名和设备号
+    # data = MonitoringData('com.kmxs.reader', '154030353600A5G')  # 请修改包名和设备号
+    data = MonitoringData('com.eg.android.AlipayGphone', '154030353600A5G')  # 请修改包名和设备号
     data.show()
     sys.exit(app.exec_())

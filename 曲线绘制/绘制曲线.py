@@ -36,7 +36,7 @@ class Monitor(QtWidgets.QMainWindow):
         self.cpu_plot_plt.showGrid(x=True, y=True)
 
         self.cpu_plot_layout.addWidget(self.cpu_plot_plt)
-        self.cpu_img.addWidget(self.cpu_plot_widget, 20, 2, 3, 3)
+        self.cpu_img.addWidget(self.cpu_plot_widget, 200, 2, 3, 3)
         self.cpu_plot_plt.setYRange(min=0, max=1)
 
     def sampler(self,sample_time):
