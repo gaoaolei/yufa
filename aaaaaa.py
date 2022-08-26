@@ -1,27 +1,22 @@
-import a
-b =a.Student()
-b.age=30
+# from pymemcache.client.base import Client
+#
+# mc = Client(('172.32.3.63', 11211))
+# print(mc.get('2088412914365175_ct_new_exhibitionFlag'))
+#
 
-"""
-asdfffffffff
-"""
-print(__package__)
-print(__cached__)
-print(__name__)
-print(b.__dict__)
-print(dir())
-print(dir(b))
-print(__doc__)
-print(__file__)
-print(b.__class__)
-# print(class(b))
-print(str(b))
-print(b.__str__)
-print(b.__str__())
 
-print(str(3))
-print(int.__str__(3))
-print((3).__str__())
-print(type(b))
-print(list.__bases__)
-print(list.__class__)
+users = ['gaoaolei','luomengxia','zhouqinghui']
+user_map = dict()
+#
+for user in users:
+    user_map[user] = {
+        'bug_close_nums': 0,
+        'bug_open_nums': 0,
+        'bug_nums': 0,
+        'case_nums': 0,
+        'worktime_nums': 0,
+        'demand_nums': 0
+    }
+print(user_map)
+user_map['wenyuan']['bug_nums'] += 3
+
