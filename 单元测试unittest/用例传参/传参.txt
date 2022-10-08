@@ -1,20 +1,4 @@
-一、unittest的运行方式
-pycharm在遇到带test的文件名或者函数的时候，会自动进入nosetest模式，如果我们做unittest测试时，如何将nosetest切换成unittest呢？
-答：settings---tool---python intergate tools---将default test runner切换下就行了，坑了我好久
-
-二、unittest的n种加载用例的方式：
-https://blog.csdn.net/fengguangke/article/details/81709215
-
-1. 通过unittest.TestSuite()类直接构建，或者通过TestSuite实例的addTests、addTest方法构建
-2. 通过unittest.TestLoader类的discover、loadTestsFromTestCase、loadTestsFromModule、loadTestsFromName、loadTestsFromNames这五个方法去构建
-3. 通过unittest.makeSuite()、unittest.findTestCases()这两个方法去构建
-补充：多个testsuite怎么合并？
-suite1 = unittest.TestLoader().loadTestsFromTestCase(para.testMethod)
-suite2 = unittest.TestLoader().loadTestsFromTestCase(test.Test)
-suite = unittest.TestSuite([suite1, suite2])
-4. 具体实例看test.py文件
-
-*************************************参数化（传递参数）：*************************************
+***************************unittest三种传参方式*************************************
 python自动化测试方案常搭配unittest使用，而unittest的思路是一个def方法就是一条用例，并不鼓励传递参数，这对于循环处理数据这种场景并不友好，因此，如果需要在测试类中使用业务参数，可采用以下方法。
 
 一、重新构造unittest.TestCase类的主函数
@@ -71,5 +55,3 @@ class TestBookDownload(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-*************************************参数化（传递参数）：*************************************

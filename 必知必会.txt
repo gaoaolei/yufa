@@ -1,3 +1,208 @@
+1、类的__dict__属性和类对象的__dict__属性
+结论：
+a、类的静态函数、类函数、普通函数、全局变量以及一些内置的属性都是放在类__dict__里的
+b、对象的__dict__中存储了一些self.xxx的一些东西
+
+
+##、关键字
+False      await      else       import     pass
+None       break      except     in         raise
+True       class      finally    is         return
+and        continue   for        lambda     try
+as         def        from       nonlocal   while
+assert     del        global     not        with
+async      elif       if         or         yield
+
+##、bultins
+abs():                              绝对值
+all(iterable):                      所有为true则返true
+ascii():                            ascii('runoob')= "'runoob'"
+any(iterable):                      所有为false则返false
+bin():                              bin(65)='0b01000001'
+callable():                         检查一个对象是否可被调用
+chr():                              chr(65)='A'
+compile():                          将一个字符串编译为字节代码,可以执行代码
+copyright():
+credits():
+delattr(x, y):                      删除属性
+dir(p_object=None):                 dir()返回当前模块的属性列表；dir(str)返回str的所有方法列表， 很有用处
+divmod(x, y):                       divmod(a,b)=(a//b,a%b)  返回tuple，商和余数
+eval():                             执行一个"字符串"表达式，并返回表达式的值  eval('1+2')=3  eval('123')=123   eval("'12'+'3'")='123'   去掉引号
+exec():                             exec 执行储存在字符串或文件中的 Python 语句，相比于 eval，exec可以执行更复杂的 Python 代码  exec("print('aaa')")
+exit():                             退出程序
+format():                           格式化 "网站名：{name}, 地址 {url}".format(name="菜鸟教程", url="www.runoob.com")
+getattr()
+globals():                          以字典类型返回当前位置的全部全局变量
+hasattr():
+hash():                             返回hash值，每次都是变化的
+help():
+hex():                              hex(65)='0x41'
+id():
+input():
+isinstance(x, A_tuple):             isinstance("fu","zi")
+issubclass(x, A_tuple):             issubclass("fu","zi")
+iter(source, sentinel=None):
+len():
+license():
+locals():                           以字典类型返回当前位置的全部局部变量
+max(*args, key=None):               max(1,2,3)=3  max(2+2,3)=4  max([1,2,3])=3
+min(*args, key=None):               max(1,2,3)=1  max(2+2,3)=3  max([1,2,3])=1
+next(iterator, default=None):       从迭代器中获取值，for循环的底层实现
+oct():                              oct(65) = '0o101'
+open(file, mode='r', buffering=None, encoding=None,...):
+ord():                              ord('A')=65  返回字符的整数表示
+pow():                              pow(2,3)=8
+print(self, *args, sep=' ', end='\n', file=None):
+quit():
+repr(obj):                          将对象转化为供解释器读取的形式,返回一个对象的 string 格式   repr([1,2,3])="[1,2,3]"  加层引号
+round(number, ndigits=None):        round(11.56)=12  round(11.56,1)=11.6
+setattr(x, y, v):
+sorted(Iterable):                   sorted([1,3,2])=[1,2,3]  区别于[3,4,2,1].sort()
+sum(iterable[, x]):                 sum([1,2,3],4)=10
+vars(p_object=None):                返回对象object的属性和属性值的字典对象
+
+class int(object):                  int("123")=123  int('0b01000001',base=2)=65
+class bool(object):                 bool(1)=True
+class bytearray(object):
+class bytes(object):                比较复杂
+class complex(object):              复数 complex(1,2)=1+2j
+class dict(object):
+class enumerate(object):            list(enumerate(a,b,c),3) = [(3,a),(4,b),(5,c)]
+class filter(object):               def f(x):return x%2==0  filter(f,[1,2,3,4,5,6])=迭代器(2,4,6)
+class float(object):                float(12)=12.0
+class frozenset(object):
+class list(object):
+class map(object):                  映射 def f(x):return x*x  map(f,[1,2,3])=迭代器(1,4,9)
+class range(object):
+class reversed(object):             reversed([1,2,3])=迭代器(3,2,1)
+class set(object):
+class slice(object):                切片的底层实现
+class str(object):                  str(123)='123'
+class super(object):                super().父类的方法，子类中继承父类的方法时使用
+class tuple(object):
+class type(object):
+class zip(object):                  a=[1,2,3] b=[4,5,6] c=list(zip(a,b))=[(1,4),(2,5),(3,6)]  zip(*c)=(1,2,3) (4,5,6)
+
+##、所有的函数，方法，运算符等最终都是执行到__funcname__这样的特殊方法身上。
+math.ceil(a)---调用math模块的ceil方法----判断a的类型----调用对应类型的__ceil__方法
+len(a)----实质是builtin.len(a)----判断a的类型----调用对应类型的__len__方法
+注意：funcname----__funcname__ 名字有哪些应该是python内部规定了，不可以自定义
+
+##、特殊属性
+__class__   返回对象的类
+__dict__    返回对象的属性
+__annotations__
+__slots__   固定若干属性，和__dict__互斥
+__doc__     返回对象的注释部分
+__module__  当前操作的对象在哪个模块
+__name__    模块，类，函数的名字   当前文件时="__main__"
+__base__    最近的父类
+__bases__   所有父类
+__basesize__
+__flags__
+__itemsize__
+__mro__     继承关系
+__qualname__
+__text_signature__
+__weakrefoffset__
+__hash__    注意区分__hash__()
+
+##、普通变量（公有），私有变量，特殊变量
+变量由大小写英文，数据和_组合而成，且不能以数字开头
+对于类而言，又有私有变量和特殊变量的说法
+xxx 	公有变量，可任意访问
+_xxx	声明私有变量，类或子类可访问（实际上也是可以任意访问，但不要随意访问，所以叫声明）
+__xxx	私有变量，只能在类内部方位，连子类都不能访问，变量名实际变成了_className__a
+__xxx__	特殊变量
+
+##、特殊变量,可通过dir()获取
+__name__    值为__main__,被导入时为py文件的名字
+__dict__    实例属性字典
+__class__   print("ads".__class__) 结果：<class 'str'>    print(A().__class__) 结果为<class '__main__.A'>
+__slots__   tuple 指定类可以绑定的属性
+__author__  作者
+__file__   返回文件路径， 通过调用 __file__ 属性输出的绝对路径，我们可以很轻易地找到该模块（或包）的源文件。
+print(__file__)    返回当前文件的路径
+import requests;print(request.__file__)    返回requests库的路径  D:\Program Files (x86)\Python36-32\lib\site-packages\requests\__init__.py
+__all__  仅在from x import *时以下成立(必须是*)
+模块（py文件），py文件中写__all__=['xx']，表示该文件只有xx可以被其他文件导入
+包（package）的init文件中写__all__=['xx']，表示该包中的xx模块可以被其他文件导入
+__package__   模块所在的package   例如a.b.c
+2.特殊方法
+__init__()      初始化方法,实例化时自动执行
+__repr__()      是给机器用的，在Python解释器里面直接敲对象名在回车后调用的方法
+__str__()       在调用print打印对象时自动调用，是给用户用的，是一个描述对象的方法
+调用str触发__str__，并调用repr()触发器__repr__，但是print()也可以触发__str__和__repr__。如果对象定义了_str_，print()通常会触发_str_，
+否则，__repr__但是像列表和字典这样的容器总是使用__repr__方法。默认情况下，当需要__str__方法但找不到时，会自动调用_repr_方法。
+__format__()    format()触发
+__bytes__()     bytes()触发
+__abs__()        abs时触发
+__bool__()
+__complex__()
+__int__()
+__float__()
+__hash__()
+__index__()
+__len__()        len触发
+__getitem__()    要表现得像list那样按照下标取出元素，需要实现__getitem__()方法
+__setitem__()    要表现得像list那样按照下标给元素赋值   a[0]=100   a['key']=100 时调用
+__delitem__()    要表现得像list那样按照下标删除元素     del 时调用
+class Fib(object):
+    def __getitem__(self, n):
+        if isinstance(n, int):
+            a, b = 1, 1
+            for x in range(n):
+                a, b = b, a + b
+            return a
+        if isinstance(n, slice):
+            start = n.start
+            stop = n.stop
+            a, b = 1, 1
+            L = []
+            for x in range(stop):
+                if x >= start:
+                    L.append(a)
+                    a, b = b, a + b
+            return L
+fib = Fib()
+print(fib[10])
+print(fib[0:10])
+
+__contains__()
+__iter__()       有该方法表示实例可for循环     一般用法：def __iter__(self):return self    参见斐波拉契
+__reversed__()
+__next__()       对于可for的实例遍历时取出值   参见斐波拉契  next()时调用
+__call__()       任何类，只需要定义一个__call__()方法，就可以直接对实例进行调用
+__enter__()      with时调用
+__exit__()       with时调用
+__new__()        __init__是实例创建之后调用的第一个方法，而__new__更像构造函数，它在__init__之前被调用
+__del__()        del x时调用
+__getattr__()
+__setattr__()
+__getattribute__()
+__delattr__()
+__dir__()
+__get__()
+__set__()
+__delete__()
+__eq__()      =触发
+__lt__()      <触发
+__le__()      <=
+__gt__()      >
+__ge__()      >=
+__ne__()      !=
+__add__()     +
+__sub__()     -
+__mul__()     *
+__truediv__()     /
+__floordiv__()    //
+__mod__()         %
+__divmod__()     divmod
+__pow__()         **或pow
+__round__()       round
+
+
+##、关于属性，只有以下7种方法
 getattr()
 hasattr()
 setattr()
@@ -8,50 +213,51 @@ __setattr__()
 __delattr__()
 
 一、属性引用函数
-
 hasattr(obj,name[,default])
 getattr(obj,name)
 setattr(obj,name,value)
 delattr(obj,name)
 
-
-
 二、属性引用重载
-
-
 def __setattr__(self,key,value):
 　　1.拦截所有属性的赋值语句。
 　　2.self.attr=value 相当于 self.__setattr__("attr",value)。
 　　3.如果在__setattr__中对任何self属性赋值，都会再调用__setattr__，导致无穷递归循环。只能self.__dict__["attr"]=value 。
-
-
 
 def __getattribute__(self, key):
 　　1.拦截所有的属性获取，包括未定义的属性，self.__dict__，等点号运算。
 　　2.所有的属性先在__getattribute__中没有找到，就会抛出AttributeError，__getattr__接收这个错误，此时进入__getattr__中继续寻找。
 　　3.如果__getattribute__没有抛出AttributeError，将不会调用__getattr__。
 
-
 def __getattr__(self, key):
 　　拦截self.attr运算。当在__dict__中未找到该属性时，在类属性中也没有找到该属性，并且在继承树中也没有找到该属性，就会调用这个方法。
-
 
 def __delattr__(self,key): 删除属性
 
 
 
+重点：
+Iterable
+名字：可迭代对象
+分类；
+1.str,list,tuple,range
+2.open的文件对象
+3.实现了序列语义的对象，__getitem__()
+4.实现了迭代协议的对象，__iter__()
+Iterator(Iterable)
+名字：迭代器，继承自可迭代对象
+特征：可以for，可以next()取值，迭代器中的数据只能迭代一次
+分类：
+1.实现了迭代器协议的对象，同时有__iter__()和__next__()
+Generator
+名字：生成器，是一个特殊的迭代器，实际中常用
+特征：next(),for,list(),tuple()均可取值
+分类：
+1.生成器表达式  (x for x in xxx)
+2.含有yield的函数（yield可以在函数内任意位置，执行到它即返回一个值，并暂停程序，下次取值从这继续）
+优点：节省内存（因为存的是地址，使用的时候才真正计算出值）
+from collections.abc import Iterable,Iterator,Generator
 
-
-
-
-一、很多函数的参数都写的是Interable，那什么是Interable呢？
-列表生成式List Comprehensions   [x*x for x in range(10)]
-生成器generator                 (x*x for x in range(10))
-可以for的                  ==  Iterable可迭代对象   有str，list，tuple，set，dict，generator，带yield的函数
-可以next的（当然也可以for）  ==  Iterator迭代器      有generator，带yield的函数
-判断是否可迭代（遍历）
-from collections.abc import Iterable
-print(isinstance('aaa',Iterable))
 
 二、int数字的进制表示及转化
 65         十进制
@@ -96,77 +302,7 @@ utf8格式： b'\xe4\xb8\xad'   bytes类型   占3bytes    可以看到一个字
 六、bytes()
 bytes("中",encoding='utf8') = b'\xe4\xb8\xad\xe6\x96\x87'    同encode
 
-七、bultins
-abs():                              绝对值
-all(iterable):                      所有为true则返true
-ascii():                            ascii('runoob')= "'runoob'"
-any(iterable):                      所有为false则返false
-bin():                              bin(65)='0b01000001'
-callable():                         检查一个对象是否可被调用
-chr():                              chr(65)='A'
-compile():                          将一个字符串编译为字节代码,可以执行代码
-copyright():
-credits():
-delattr(x, y):                      删除属性
-dir(p_object=None):                 dir()返回当前模块的属性列表；dir(str)返回str的所有方法列表， 很有用处
-divmod(x, y):                       divmod(a,b)=(a//b,a%b)  返回tuple，商和余数
-eval():                             执行一个"字符串"表达式，并返回表达式的值  eval('1+2')=3  eval('123')=123   eval("'12'+'3'")='123'   去掉引号
-exec():                             exec 执行储存在字符串或文件中的 Python 语句，相比于 eval，exec可以执行更复杂的 Python 代码  exec("print('aaa')")
-exit():                             退出程序
-format():                           格式化 "网站名：{name}, 地址 {url}".format(name="菜鸟教程", url="www.runoob.com")
-getattr()
-globals():                          以字典类型返回当前位置的全部全局变量
-hasattr():
-hash():                             返回hash值，每次都是变化的
-help():
-hex():                              hex(65)='0x41'
-id():
-input():
-isinstance(x, A_tuple):             isinstance("fu","zi")
-issubclass(x, A_tuple):             issubclass("fu","zi")
-iter(source, sentinel=None):
-len():
-license():
-locals():                           以字典类型返回当前位置的全部局部变量
-max(*args, key=None):               max(1,2,3)=3  max(2+2,3)=4  max([1,2,3])=3
-min(*args, key=None):               max(1,2,3)=1  max(2+2,3)=3  max([1,2,3])=1
-next(iterator, default=None):       从迭代器中获取值，for循环的底层实现
-oct():                              oct(65) = '0o101'
-open(file, mode='r', buffering=None, encoding=None,...):
-ord():                              ord('A')=65  返回字符的整数表示
-pow():                              pow(2,3)=8
-print(self, *args, sep=' ', end='\n', file=None):
-quit():
-repr(obj):                          将对象转化为供解释器读取的形式,返回一个对象的 string 格式   repr([1,2,3])="[1,2,3]"  加层引号
-round(number, ndigits=None):        round(11.56)=12  round(11.56,1)=11.6
-setattr(x, y, v):
-sorted(Iterable):                   sorted([1,3,2])=[1,2,3]  区别于[3,4,2,1].sotr()
-sum(iterable[, x]):                 sum([1,2,3],4)=10
-vars(p_object=None):                返回对象object的属性和属性值的字典对象
 
-class int(object):                  int("123")=123  int('0b01000001',base=2)=65
-class bool(object):                 bool(1)=True
-class bytearray(object):
-class bytes(object):                比较复杂
-class complex(object):              复数 complex(1,2)=1+2j
-class dict(object):
-class enumerate(object):            list(enumerate(a,b,c),3) = [(3,a),(4,b),(5,c)]
-class filter(object):               def f(x):return x%2==0  filter(f,[1,2,3,4,5,6])=迭代器(2,4,6)
-class float(object):                float(12)=12.0
-class frozenset(object):
-class list(object):
-class map(object):                  映射 def f(x):return x*x  map(f,[1,2,3])=迭代器(1,4,9)
-class range(object):
-class reversed(object):             reversed([1,2,3])=迭代器(3,2,1)
-class set(object):
-class slice(object):                切片的底层实现
-class str(object):                  str(123)='123'
-class super(object):                super().父类的方法，子类中继承父类的方法时使用
-class tuple(object):
-class type(object):
-class zip(object):                  a=[1,2,3] b=[4,5,6] c=list(zip(a,b))=[(1,4),(2,5),(3,6)]  zip(*c)=(1,2,3) (4,5,6)
-
-八、pass
 
 九、查看代码执行速度
 timeit.timeit("xx")或者timeit.Timer("xx").timeit()
@@ -341,99 +477,7 @@ lenth = len(a)
 for i in range(len(a)//2):
    a[i], a[lenth-1-i] = a[lenth-1-i], a[i]
 
-十七、普通变量（公有），私有变量，特殊变量
-变量由大小写英文，数据和_组合而成，且不能以数字开头
-对于类而言，又有私有变量和特殊变量的说法
-xxx 	公有变量，可任意访问
-_xxx	声明私有变量，类或子类可访问（实际上也是可以任意访问，但不要随意访问，所以叫声明）
-__xxx	私有变量，只能在类内部方位，连子类都不能访问，变量名实际变成了_className__a
-__xxx__	特殊变量
 
-1.特殊变量,可通过dir()获取
-__name__    值为__main__,被导入时为py文件的名字
-__dict__    实例属性字典
-__class__   print("ads".__class__) 结果：<class 'str'>    print(A().__class__) 结果为<class '__main__.A'>
-__slots__   tuple 指定类可以绑定的属性
-__author__  作者
-__file__   返回文件路径， 通过调用 __file__ 属性输出的绝对路径，我们可以很轻易地找到该模块（或包）的源文件。
-print(__file__)    返回当前文件的路径
-import requests;print(request.__file__)    返回requests库的路径  D:\Program Files (x86)\Python36-32\lib\site-packages\requests\__init__.py
-__all__  仅在from x import *时以下成立(必须是*)
-模块（py文件），py文件中写__all__=['xx']，表示该文件只有xx可以被其他文件导入
-包（package）的init文件中写__all__=['xx']，表示该包中的xx模块可以被其他文件导入
-__package__   模块所在的package   例如a.b.c
-2.特殊方法
-__init__()      初始化方法,实例化时自动执行
-__repr__()      是给机器用的，在Python解释器里面直接敲对象名在回车后调用的方法
-__str__()       在调用print打印对象时自动调用，是给用户用的，是一个描述对象的方法
-调用str触发__str__，并调用repr()触发器__repr__，但是print()也可以触发__str__和__repr__。如果对象定义了_str_，print()通常会触发_str_，
-否则，__repr__但是像列表和字典这样的容器总是使用__repr__方法。默认情况下，当需要__str__方法但找不到时，会自动调用_repr_方法。
-__format__()    format()触发
-__bytes__()     bytes()触发
-__abs__()        abs时触发
-__bool__()
-__complex__()
-__int__()
-__float__()
-__hash__()
-__index__()
-__len__()        len触发
-__getitem__()    要表现得像list那样按照下标取出元素，需要实现__getitem__()方法
-__setitem__()    要表现得像list那样按照下标给元素赋值   a[0]=100   a['key']=100 时调用
-__delitem__()    要表现得像list那样按照下标删除元素     del 时调用
-class Fib(object):
-    def __getitem__(self, n):
-        if isinstance(n, int):
-            a, b = 1, 1
-            for x in range(n):
-                a, b = b, a + b
-            return a
-        if isinstance(n, slice):
-            start = n.start
-            stop = n.stop
-            a, b = 1, 1
-            L = []
-            for x in range(stop):
-                if x >= start:
-                    L.append(a)
-                    a, b = b, a + b
-            return L
-fib = Fib()
-print(fib[10])
-print(fib[0:10])
-
-__contains__()
-__iter__()       有该方法表示实例可for循环     一般用法：def __iter__(self):return self    参见斐波拉契
-__reversed__()
-__next__()       对于可for的实例遍历时取出值   参见斐波拉契  next()时调用
-__call__()       任何类，只需要定义一个__call__()方法，就可以直接对实例进行调用
-__enter__()      with时调用
-__exit__()       with时调用
-__new__()        __init__是实例创建之后调用的第一个方法，而__new__更像构造函数，它在__init__之前被调用
-__del__()        del x时调用
-__getattr__()
-__setattr__()
-__getattribute__()
-__delattr__()
-__dir__()
-__get__()
-__set__()
-__delete__()
-__eq__()      =触发
-__lt__()      <触发
-__le__()      <=
-__gt__()      >
-__ge__()      >=
-__ne__()      !=
-__add__()     +
-__sub__()     -
-__mul__()     *
-__truediv__()     /
-__floordiv__()    //
-__mod__()         %
-__divmod__()     divmod
-__pow__()         **或pow
-__round__()       round
 
 
 十八、sort排序：

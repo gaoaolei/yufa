@@ -1,48 +1,34 @@
-import requests
+# import pymysql
+#
+# conn = pymysql.connect(user='ceshi',  # The first four arguments is based on DB-API 2.0 recommendation.
+#         password="ceshi",
+#         host='172.31.24.21',
+#         database='galaxy_luna',
+#         unix_socket=None,
+#         port=3306,)
+#
+# cur = conn.cursor()
+# for i in range(1):
+#         cur.execute("insert into `query_write_off` (`part_id`, `gmt_create`, `gmt_modified`, `record_status`, "
+#                     "`out_prize_id`, `user_prize_id`, `app_id`, `sync_time`) values('8',NOW(),NOW(),'0',"
+#                     "'202209270007300217650DHGVU1T','734644992255496192','2018062860457318',NOW());"
+#         )
+#         conn.commit()
 
-url = "https://dsp-api-test.19ego.cn/qcj/api/log"
-body = {
-    "requestInfo": {
-        "b": {
-            "actId": 0,
-            "advertId": "46",
-            "aid": 0,
-            "catId": 8,
-            "catName": "land_page1",
-            "env": None,
-            "goodsId": 0,
-            "goodsSource": 0,
-            "appSource": 0,
-            "goodsUrl": "",
-            "pid": 0,
-            "popup": 0,
-            "rid": "",
-            "sKey": "q83c921639dfb2ee5",
-            "sid": 0,
-            "ua": "",
-            "uid": 0,
-            "ajts": "3",
-            "material": "29",
-            "landPageIndex": "0",
-            "index": 104
-        },
-        "d": {
-            # "id": "8309a9a7e96c473280b16519c638a000",
-            "id": "18888888888888888888888888880000",
-            "os": "0"
-        },
-        "g": {
-            "city": "unknow",
-            "ip4": "172.31.10.1",
-            "isp": "unknow",
-            "province": "unknow"
-        }
-    },
-    "code": 4001
-}
+import pymysql
 
-for i in range(25):
-    deviceId = body['requestInfo']['d']['id']
-    body['requestInfo']['d']['id'] = str(int(deviceId) + 1)
-    r = requests.post(url, json=body)
-    print(r.text)
+conn = pymysql.connect(user='dsp',  # The first four arguments is based on DB-API 2.0 recommendation.
+                       password="dsp",
+                       host='172.31.24.50',
+                       database='dsp_db',
+                       unix_socket=None,
+                       port=3306, )
+
+import random
+
+for j in range(220000,223521):
+    i = random.randint(30,100)
+    print(i)
+    cur = conn.cursor()
+    cur.execute("UPDATE qcj_statistics_advert_hour SET advert_show_pv = %s where id = %s;" % (i, j))
+    conn.commit()
