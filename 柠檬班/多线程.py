@@ -22,3 +22,4 @@ def work():
         time.sleep(1)
 
 def custom():
+    pass

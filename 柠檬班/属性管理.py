@@ -50,7 +50,7 @@ class MyMysql:
         conn = pymysql.connect(host='47.96.76.135',  # host属性
                                port=3306,  # 端口号
                                user='root',  # 用户名
-                               password='D*a93_Q08.z',  # 此处填登录数据库的密码
+                               password='xxxxx',  # 此处填登录数据库的密码
                                db='gao',  # 数据库名
                                charset="utf8")
         self.cursor = conn.cursor()
