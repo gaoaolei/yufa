@@ -1,5 +1,5 @@
 import openpyxl
-import os
+
 
 class HandleExcel:
 
@@ -35,9 +35,6 @@ class HandleExcel:
                     case_data.append('')
                 else:
                     case_data.append(str(i.value))
-        #     # 将表头和每行用例内容进行打包
-        #     case = dict(zip(title, case_data))
-        #     # 将打包后的用例内容储存在用例列表中
             cases_data.append(case_data)
         return cases_data
 
@@ -50,15 +47,3 @@ class HandleExcel:
         sh.cell(row=row, column=column, value=value)
         # 保存文件
         wb.save(self.filename)
-
-if __name__ == '__main__':
-    excel = HandleExcel( 'a.xlsx', 'ad')
-    cases = excel.read_excel()
-    # print(cases)
-    for i in enumerate(cases):
-        # print(i[0])
-        # print(i[1])
-        print(f'ct.campaign.configInfo[{i[0]}].configName = {i[1][1]}')
-        print(f'ct.campaign.configInfo[{i[0]}].configPrizeId = {i[1][2]}')
-        print(f'ct.campaign.configInfo[{i[0]}].configLogoUrl = {i[1][9]}')
-        print(f'ct.campaign.configInfo[{i[0]}].configLinkUrl = {i[1][10]}')
