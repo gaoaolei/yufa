@@ -14,6 +14,7 @@ import time
 
 a = Queue()
 a.put(111)
+print(a)
 
 def work():
     for i in range(5):

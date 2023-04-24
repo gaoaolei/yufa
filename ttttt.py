@@ -1,2 +1,1 @@
-assert True
-print('aaaaaa')
+print([11,22,33,45].remove(33))

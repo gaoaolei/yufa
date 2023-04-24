@@ -3,6 +3,8 @@
 a、类的静态函数、类函数、普通函数、全局变量以及一些内置的属性都是放在类__dict__里的
 b、对象的__dict__中存储了一些self.xxx的一些东西
 
+python的四舍五入 result = decimal.Decimal(str(5285.325)).quantize(decimal.Decimal("0.00"))
+
 
 ##、关键字
 False      await      else       import     pass
