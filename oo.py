@@ -22,3 +22,11 @@ now = datetime.date(year, month, day)
 right_day = now + timedelta(days=15)
 print(this_week_end)
 print(right_day)
+
+import re
+
+sentence = '点击个商品'
+s1 = re.findall(r'-?\d+\.?\d*', sentence)
+print(s1)
+# s = int(re.findall(r'-?\d+\.?\d*', sentence)[0])
+# print(s1)

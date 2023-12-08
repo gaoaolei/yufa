@@ -512,3 +512,12 @@ list1=list.deepcopy()
 清华 https://pypi.tuna.tsinghua.edu.cn/simple
 中国科技大学 https://pypi.mirrors.ustc.edu.cn/simple
 替代品 pipfile  https://zhuanlan.zhihu.com/p/118556315
+
+二十三、post的data和json的区别
+data就是把参数转成key-value格式
+json就是把参数转成json格式的
+1.data=dict    	data是转成key-value格式，这种可以转，但服务端要的是json格式，服务端报错
+2.data='json'	data是转成key-value格式，'json'无法转成key-value，但可在headers中指定Content-Type=application/json来强制不转，因此传的是json，服务端ok
+3.json=dict		json是转成json格式，字典可转成json，服务端ok
+4.json='json'	json是转成json格式，'json'无法再转成json，服务端报错
+由此可见data就够了，json只是在特定格式json下的快捷方式。

@@ -1,10 +1,15 @@
+import importlib
+
 from kube import KubernetesClass
 from settings import *
 
 if __name__ == '__main__':
-    kube = KubernetesClass(KUBE_PATH)
-    job_path = os.path.join(BASE_PATH, 'job','cron-update-adv-config-cache-test.yaml')
-    kube.create_job(job_path, 'micro')
+    # kube = KubernetesClass(KUBE_PATH)
+    # job_path = os.path.join(BASE_PATH, 'job','cron-update-adv-config-cache-test.yaml')
+    # kube.create_job(job_path, 'micro')
+
+    pck=importlib.import_module('kube.kube')
+    print(getattr(pck,'KubernetesClass'))
 
     # # job的使用
     # from kubernetes.client import V1JobStatus
