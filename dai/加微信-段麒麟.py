@@ -65,19 +65,17 @@ class HandleExcel:
         wb.save(self.filename)
 
 if __name__ == '__main__':
-    excel = HandleExcel( '人人驾统一全量司机11月.xlsx', 'Sheet')
+    excel = HandleExcel( '段麒麟11_13号司机数据.xlsx', 'Sheet')
     cases = excel.read_excel()
     # print(cases)
     for i in enumerate(cases):
-        # print(i)
-        # if i[1][3] != '人人驾段麒麟7队':
-        #     continue
-        # print(type(i[0]))
+        if i[1][3] != '人人驾段麒麟7队':
+            continue
         if i[0] == 0:
             continue
         if i[1][6]:
             continue
-        name = i[1][2]
+        name = i[1][1]
         mobile = i[1][5]
         print(name)
         print(mobile)
@@ -85,7 +83,7 @@ if __name__ == '__main__':
         poco('com.tencent.mm:id/plus_icon').click()
         poco(text='添加朋友').click()
         poco(text='账号/手机号').click()
-        sleep(0.5)
+        sleep(0.3)
         text(mobile, enter=True)
         poco(textMatches='^搜索.*').click()
         if poco(text='该用户不存在'):
@@ -101,24 +99,22 @@ if __name__ == '__main__':
             swipe((1, 1000), (300, 1000))
         else:
             poco(text='添加到通讯录').click()
-            # sleep(0.2)
-            # poco('com.tencent.mm:id/j0z').click()
-            # poco('com.tencent.mm:id/j0z').set_text("")
-            # text(name)
-            # # 点击标签
-            # poco('com.tencent.mm:id/bo0').click()
-            # poco(text='选择或搜索标签').click()
-            # poco(text='选择或搜索标签').set_text("")
-            # text('7队')
+            sleep(0.2)
+            poco('com.tencent.mm:id/j0z').click()
+            poco('com.tencent.mm:id/j0z').set_text("")
+            text(name)
+            # 点击标签
+            poco('com.tencent.mm:id/bo0').click()
+            poco(text='选择或搜索标签').click()
+            poco(text='选择或搜索标签').set_text("")
+            text('7队')
             sleep(1)
-            poco('com.tencent.mm:id/m9y').set_text('解封账号，平移车证')
-            sleep(0.3)
-            # poco(text='保存').click()
+            poco(text='保存').click()
             poco(text='发送').click()
-            sleep(2)
+            sleep(1)
             swipe((1, 1000), (300, 1000))
             sleep(0.5)
             swipe((1, 1000), (300, 1000))
-            sleep(1)
+            sleep(0.5)
             swipe((1, 1000), (300, 1000))
             excel.write_excel(i[0]+1,7,'已添加待通过')
