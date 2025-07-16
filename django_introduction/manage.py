@@ -4,11 +4,11 @@ import os
 import sys
 
 
-def main(a):
-    print(os)
-    print(os.environ)
-    print(os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_introduction.settings'))
-    print(os.environ)
+def main():
+    # print(os)
+    # print(os.environ)
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_introduction.settings')
+    # print(os.environ)
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
@@ -17,8 +17,8 @@ def main(a):
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
         ) from exc
-    execute_from_command_line(a)
+    execute_from_command_line()
 
 
 if __name__ == '__main__':
-    main("runserver")
+    main()
