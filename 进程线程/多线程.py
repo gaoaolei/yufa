@@ -14,7 +14,7 @@ import time
 #     th_list.append(threading.Thread(target=f))
 #
 # for i in th_list:
-#     # i.setDaemon(True)     # setDaemon为True则主线程结束，子线程也结束
+#     # i.setDaemon(True)     # setDaemon为True则主线程结束，子线程也结束，所谓守护，守护的是主线程，与主线程共生死，主结束子也结束
 #     i.start()
 #     # i.join()           # join是阻塞主线程，timeout为空则一直阻塞直到子线程全部结束，有timeout则主线程等待timeout*线程个数的时间后结束
 #
